@@ -1,6 +1,6 @@
 public class AccountOperations {
     Public static Account setDefaultDescription(Account a){
-        If (a.Description != null) return a;
+        If (a.Description != null){ return a;}
           Else {
                  a.Description = 'Copa.do description'; // DEV 1     
                  return a;
