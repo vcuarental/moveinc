@@ -26,5 +26,9 @@ public class AccountOperations {
         a.shippingpostalcode ='28023';
         return a;
         }
+    public static Account setDefaultNumber(Account a){//Dev1
+        a.AccountNumber='CC1000';
+        return a;
+        }
 
 }
