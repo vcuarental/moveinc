@@ -15,15 +15,15 @@ public class AccountOperations {
         return a;
         }
     public static Account setDefaultBillingAddress(Account a){//Dev3
-        a.billingstreet = 'Basauri, 6';
+        a.billingstreet = 'Paseo de la Castellana, 77';
         a.billingstate = 'Madrid';
-        a.billingpostalcode ='28023';
+        a.billingpostalcode ='28046';
         return a;
         }
     public static Account setDefaultShippingAddress(Account a){//Dev3
-        a.shippingstreet = 'Basauri, 6';
+        a.shippingstreet = 'Paseo de la Castellana, 77';
         a.shippingstate = 'Madrid';
-        a.shippingpostalcode ='28023';
+        a.shippingpostalcode ='28046';
         return a;
         }
     public static Account setDefaultNumber(Account a){//Dev1
