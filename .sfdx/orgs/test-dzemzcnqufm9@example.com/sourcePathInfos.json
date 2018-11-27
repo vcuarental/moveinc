@@ -1,0 +1,77 @@
+[
+    [
+        "/app/dxProject/force-app",
+        {
+            "state": "n",
+            "sourcePath": "/app/dxProject/force-app",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1543336674061,
+            "changeTime": 1543336674061,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/app/dxProject/force-app/main",
+        {
+            "state": "n",
+            "sourcePath": "/app/dxProject/force-app/main",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1543336674061,
+            "changeTime": 1543336674061,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/app/dxProject/force-app/main/default",
+        {
+            "state": "n",
+            "sourcePath": "/app/dxProject/force-app/main/default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1543336674117,
+            "changeTime": 1543336674117,
+            "contentHash": "d1783acf47fcb7ec23f15dbf710dcc85a0c3e0b5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/app/dxProject/force-app/main/default/aura",
+        {
+            "state": "n",
+            "sourcePath": "/app/dxProject/force-app/main/default/aura",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1543336674061,
+            "changeTime": 1543336674061,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/app/dxProject",
+        {
+            "state": "n",
+            "sourcePath": "/app/dxProject",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1543336677105,
+            "changeTime": 1543336677105,
+            "contentHash": "07da07834d8f50a1018cf646c911906296572a7c",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ]
+]
