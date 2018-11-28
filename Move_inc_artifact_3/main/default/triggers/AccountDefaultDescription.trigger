@@ -3,6 +3,9 @@ trigger AccountDefaultDescription on Account (before insert) {
         a = AccountOperations.setDefaultDescription(a);
         a = AccountOperations.setDefaultURL(a);
         a = AccountOperations.setDefaultPhone(a);
+        a = AccountOperations.setDefaultBillingAddress(a);
+        a = AccountOperations.setDefaultShippingAddress(a);
+        a = AccountOperations.setDefaultNumber(a);
 
     }   
 }
