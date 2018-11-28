@@ -30,5 +30,8 @@ public class AccountOperations {
         a.AccountNumber='CC1000';
         return a;
         }
-
+    public static Account setDefaultIndustry( account a){
+        a.Industry = 'Apparel';
+        return a;
+    }
 }
