@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Productos del presupuesto</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Productos del presupuesto</value>
+    </caseValues>
+    <fields>
+        <label><!-- A revisar --></label>
+        <name>A_revisar__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aprovisiona --></label>
+        <name>Aprovisiona__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disparo --></label>
+        <name>Disparo__c</name>
+    </fields>
+    <fields>
+        <label><!-- EAN (QR) --></label>
+        <name>EAN_QR__c</name>
+    </fields>
+    <fields>
+        <label><!-- EAN --></label>
+        <name>EAN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id externo --></label>
+        <name>Id_externo__c</name>
+    </fields>
+    <fields>
+        <label><!-- List Price OLD --></label>
+        <name>List_Price_OLD__c</name>
+    </fields>
+    <fields>
+        <label><!-- List Price old --></label>
+        <name>List__c</name>
+    </fields>
+    <fields>
+        <label><!-- PVP con IVA --></label>
+        <name>PVP_con_IVA__c</name>
+    </fields>
+    <fields>
+        <label><!-- PVP con IVA (editable) --></label>
+        <name>PVP_con_IVA_editable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Palets --></label>
+        <name>Palets__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio total con desc. --></label>
+        <name>Precio_total_con_desc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Impuesto (%) --></label>
+        <name>Tax__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

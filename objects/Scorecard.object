@@ -58,5 +58,14 @@
         <filterScope>Mine</filterScope>
         <label>My Scorecards</label>
     </listViews>
+    <listViews>
+        <fullName>Panel1_Scorecard</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Panel1</label>
+        <queue>Panel1</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <sharingModel>Private</sharingModel>
 </CustomObject>

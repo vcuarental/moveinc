@@ -34,6 +34,26 @@
         <fullName>IsActive</fullName>
     </fields>
     <fields>
+        <fullName>ListPriceNew__c</fullName>
+        <externalId>false</externalId>
+        <label>ListPriceNew</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>PVP_con_IVA__c</fullName>
+        <externalId>false</externalId>
+        <formula>UnitPrice*(1+Product2.tax__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>PVP con IVA</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
         <fullName>Pricebook2Id</fullName>
         <type>Lookup</type>
     </fields>

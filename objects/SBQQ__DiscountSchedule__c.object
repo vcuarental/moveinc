@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <customHelpPage>SBQQ__DiscountScheduleHelp</customHelpPage>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Volume discount schedule that applies automatic discounts based on quantity.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>SBQQ__AggregationScope__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates whether quote lines referencing this schedule should be aggregated within quote, group or not at all for the purposes of volume discount calculation.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Specify how to aggregate quantities of quote lines for products using this schedule. By default quantity of each line (even for the same product) is considered independently.</inlineHelpText>
+        <label>Aggregation Scope</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Quote</fullName>
+                    <default>false</default>
+                    <label>Quote</label>
+                </value>
+                <value>
+                    <fullName>Group</fullName>
+                    <default>false</default>
+                    <label>Group</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SBQQ__ConstraintField__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>For cross-order schedules, if you want to limit which subscriptions and assets are used to calculate your volume discounts, select the field that you want to match against the same field on the quote.</inlineHelpText>
+        <label>Constraint Field</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>&lt;Add your own custom field here&gt;</fullName>
+                    <default>false</default>
+                    <label>&lt;Add your own custom field here&gt;</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SBQQ__CrossOrders__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Specifies whether volume discount should be applied on combined quantities across prior orders.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this box if you want to extend volume discounts on total volume owned by customer (ie: quantity quoted plus prior purchases)</inlineHelpText>
+        <label>Cross Orders</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__CrossProducts__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Flag that indicates whether volume discount calculations should aggregate quantities of all products using this schedule.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check to aggregate quantities of all products using this schedule for the purpose of volume discount calculation.</inlineHelpText>
+        <label>Cross Products</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Description for this Discount Schedule.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Description for this Discount Schedule.</inlineHelpText>
+        <label>Description</label>
+        <length>5000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SBQQ__DiscountUnit__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Discount Unit</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Percent</fullName>
+                    <default>true</default>
+                    <label>Percent</label>
+                </value>
+                <value>
+                    <fullName>Amount</fullName>
+                    <default>false</default>
+                    <label>Amount</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SBQQ__ExcludedPricebookIds__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Comma-seperated list of price book IDs for which this discount schedule should not apply.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter a list of price book IDs separated by commas that should not be applied to this discount schedule.</inlineHelpText>
+        <label>Excluded Pricebook IDs</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__PriceScale__c</fullName>
+        <defaultValue>2</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Decimal places for prices produced by this discount schedule.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Decimal places for prices produced by this discount schedule.</inlineHelpText>
+        <label>Price Scale</label>
+        <precision>8</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SBQQ__Pricebook__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Price book that this discount schedule applies to. Only used in combination with Product lookup to assign product/price book specific schedule.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Price book that this discount schedule applies to. Only used in combination with Product lookup to assign product/price book specific schedule.</inlineHelpText>
+        <label>Price Book</label>
+        <referenceTo>Pricebook2</referenceTo>
+        <relationshipLabel>Discount Schedules</relationshipLabel>
+        <relationshipName>DiscountSchedules</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__Product__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Product that this discount schedule applies to. Only used in combination with Price Book lookup to assign product/price book specific schedule.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Product that this discount schedule applies to. Only used in combination with Price Book lookup to assign product/price book specific schedule.</inlineHelpText>
+        <label>Product</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Discount Schedules</relationshipLabel>
+        <relationshipName>DiscountSchedules</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Type of this discount schedule</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Type of schedule which determines how discount is calculated. Click &quot;Help for this Page&quot; link in the upper, right corner for detailed description of available types and how they calculate the discount.</inlineHelpText>
+        <label>Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Range</fullName>
+                    <default>true</default>
+                    <label>Range</label>
+                </value>
+                <value>
+                    <fullName>Slab</fullName>
+                    <default>false</default>
+                    <label>Slab</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Discount Schedule</label>
+    <listViews>
+        <fullName>Panel1_DiscountSchedule</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Panel1</label>
+        <queue>Panel1</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>SBQQ__All</fullName>
+        <columns>NAME</columns>
+        <columns>SBQQ__Type__c</columns>
+        <columns>SBQQ__Description__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Schedule Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Discount Schedules</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>SBQQ__Type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SBQQ__Description__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>UPDATEDBY_USER</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>SBQQ__Type__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SBQQ__Description__c</lookupDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>SBQQ__Type__c</searchFilterFields>
+        <searchFilterFields>UPDATEDBY_USER</searchFilterFields>
+        <searchResultsAdditionalFields>SBQQ__Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CREATEDBY_USER</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>UPDATEDBY_USER</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>SBQQ__EditTiers</fullName>
+        <availability>online</availability>
+        <description>Launches the page that edits multiple tiers at once.</description>
+        <displayType>button</displayType>
+        <linkType>page</linkType>
+        <masterLabel>Edit Tiers</masterLabel>
+        <openType>replace</openType>
+        <page>SBQQ__EditDiscountTiers</page>
+        <protected>false</protected>
+    </webLinks>
+</CustomObject>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>When the status of an opportunity changes, post the new status to Slack</description>
+    <label>Opportunity Status Change</label>
+    <processType>Workflow</processType>
+</Flow>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>When the price of a property changes, post it to Slack</description>
+    <label>Post Price Changes to Slack</label>
+    <processType>Workflow</processType>
+</Flow>

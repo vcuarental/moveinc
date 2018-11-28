@@ -60,6 +60,10 @@
         <fullName>BudgetedCost</fullName>
     </fields>
     <fields>
+        <fullName>CampaignImageId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>CampaignMemberRecordTypeId</fullName>
         <type>Lookup</type>
     </fields>
@@ -176,6 +180,15 @@
             <value>1</value>
         </filters>
         <label>My Active Campaigns</label>
+    </listViews>
+    <listViews>
+        <fullName>Objetivos</fullName>
+        <columns>CAMPAIGN.NAME</columns>
+        <columns>CAMPAIGN.START_DATE</columns>
+        <columns>CAMPAIGN.END_DATE</columns>
+        <columns>CAMPAIGN.EXP_REVENUE</columns>
+        <filterScope>Mine</filterScope>
+        <label>Objetivos</label>
     </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>CAMPAIGN.NAME</customTabListAdditionalFields>

@@ -1,0 +1,29 @@
+<apex:page standardController="Account">
+        <apex:enhancedList type="Contact" height="300" rowsPerPage="10" id="ContactList" listId="00B0Y000007fsirUAA"/>
+    <apex:pageBlock title="Account Details">
+        
+            <apex:outputField value="{! Account.Name }"/>
+            <apex:outputField value="{! Account.Phone }"/>
+            <apex:outputField value="{! Account.Industry }"/>
+            <apex:outputField value="{! Account.AnnualRevenue }"/>
+            
+            <apex:pageBlock title="Contacts">
+               <apex:pageBlockTable value="{!Account.contacts}" var="contact">
+                  <apex:column value="{!contact.Name}"/>
+                  <apex:column value="{!contact.Title}"/>
+                  <apex:column value="{!contact.Phone}"/>
+                </apex:pageBlockTable>
+            </apex:pageBlock>
+            <apex:pageBlock title="Opportunities">
+               <apex:pageBlockTable value="{!Account.opportunities}" var="opportunity">
+                  <apex:column value="{!opportunity.Name}"/>
+                  <apex:column value="{!opportunity.Amount}"/>
+                  <apex:column value="{!opportunity.StageName}"/>
+                </apex:pageBlockTable>
+                
+            </apex:pageBlock>
+            <apex:relatedList list="Opportunities" pageSize="6"/>
+       
+</apex:pageBlock>
+
+</apex:page>

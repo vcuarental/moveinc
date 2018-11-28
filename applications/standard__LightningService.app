@@ -12,9 +12,45 @@
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
     <tabs>standard-home</tabs>
+    <tabs>Objeto_Prueba__c</tabs>
+    <tabs>Prueba_hijo__c</tabs>
+    <tabs>Taskeando__c</tabs>
+    <tabs>HelloWorld</tabs>
+    <tabs>Camping_Item__c</tabs>
+    <tabs>Expense__c</tabs>
+    <tabs>Knowledge__kav</tabs>
+    <tabs>Chat</tabs>
+    <tabs>Rentabilidad__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningService_UtilityBar</utilityBar>
     <workspaceConfig>
+        <mappings>
+            <tab>Camping_Item__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Chat</tab>
+        </mappings>
+        <mappings>
+            <tab>Expense__c</tab>
+        </mappings>
+        <mappings>
+            <tab>HelloWorld</tab>
+        </mappings>
+        <mappings>
+            <tab>Knowledge__kav</tab>
+        </mappings>
+        <mappings>
+            <tab>Objeto_Prueba__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Prueba_hijo__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Rentabilidad__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Taskeando__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>

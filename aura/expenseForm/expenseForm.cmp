@@ -1,0 +1,41 @@
+<aura:component controller="ExpensesController">
+    <aura:attribute name="newExpense" type="Expense__c"
+         default="{ 'sobjectType': 'Expense__c',
+                        'Name': '',
+                        'Amount__c': 0,
+                        'Client__c': '',
+                        'Date__c': '',
+                        'Reimbursed__c': false }"/>
+    
+    <aura:registerEvent name="createExpense" type="c:expensesItemUpdate"/>
+    <aura:attribute name="expenses" type="Expense__c[]"/>
+    <form class="slds-form--stacked">          
+            <lightning:input aura:id="expenseform" label="Expense Name"
+                             name="expensename"
+                             value="{!v.newExpense.Name}"
+                             required="true"/> 
+            <lightning:input type="number" aura:id="expenseform" label="Amount"
+                             name="expenseamount"
+                             min="0.1"
+                             formatter="currency"
+                             step="0.01"
+                             value="{!v.newExpense.Amount__c}"
+                             messageWhenRangeUnderflow="Enter an amount that's at least $0.10."/>
+            <lightning:input aura:id="expenseform" label="Client"
+                             name="expenseclient"
+                             value="{!v.newExpense.Client__c}"
+                             placeholder="ABC Co."/>
+            <lightning:input type="date" aura:id="expenseform" label="Expense Date"
+                             name="expensedate"
+                             value="{!v.newExpense.Date__c}"/>
+            <lightning:input aura:id="expenseCheckbox" type="checkbox" 
+                        label="Reimbursed?"
+                        name="reimbursed"
+                        class="slds-p-around--small"
+                        onchange="{!c.clickReimbursed}"/>
+            <lightning:button label="Create Expense" 
+                              class="slds-m-top--medium"
+                              variant="brand"
+                              onclick="{!c.clickCreate}"/>
+        </form>	
+</aura:component>

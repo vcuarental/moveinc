@@ -4,7 +4,7 @@
         <fullName>Standard</fullName>
         <active>true</active>
         <ruleEntry>
-            <assignedTo>train_prod2@copa.do</assignedTo>
+            <assignedTo>vcb@copado.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Lead.Country</field>
@@ -13,7 +13,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>train_prod2@copa.do</assignedTo>
+            <assignedTo>vcb@copado.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Lead.Country</field>

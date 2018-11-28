@@ -2,8 +2,58 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>None</fullName>
+        <fullName>Cintas de Doble Cara</fullName>
         <default>false</default>
-        <label>None</label>
+        <label>Cintas de Doble Cara</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cintas Adhesivas Especiales</fullName>
+        <default>false</default>
+        <label>Cintas Adhesivas Especiales</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Decoración y Carrocería</fullName>
+        <default>false</default>
+        <label>Decoración y Carrocería</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Burbuja</fullName>
+        <default>false</default>
+        <label>Burbuja</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Foam</fullName>
+        <default>false</default>
+        <label>Foam</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Film Extensible Manual y Automático</fullName>
+        <default>false</default>
+        <label>Film Extensible Manual y Automático</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cartón Ondulado</fullName>
+        <default>false</default>
+        <label>Cartón Ondulado</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Fleje</fullName>
+        <default>false</default>
+        <label>Fleje</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Accesorios</fullName>
+        <default>false</default>
+        <label>Accesorios</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Papel</fullName>
+        <default>false</default>
+        <label>Papel</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Celulosa</fullName>
+        <default>false</default>
+        <label>Celulosa</label>
     </standardValue>
 </StandardValueSet>

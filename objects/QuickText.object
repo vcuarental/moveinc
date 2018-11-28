@@ -61,6 +61,15 @@
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
+    <listViews>
+        <fullName>Panel1_QuickText</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Panel1</label>
+        <queue>Panel1</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>Message</customTabListAdditionalFields>
         <customTabListAdditionalFields>Category</customTabListAdditionalFields>

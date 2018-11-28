@@ -179,7 +179,40 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
+    <tabs>standard-Knowledge</tabs>
+    <tabs>Objeto_Prueba__c</tabs>
+    <tabs>Prueba_hijo__c</tabs>
+    <tabs>Taskeando__c</tabs>
+    <tabs>HelloWorld</tabs>
+    <tabs>Camping_Item__c</tabs>
+    <tabs>Expense__c</tabs>
+    <tabs>Chat</tabs>
+    <tabs>Rentabilidad__c</tabs>
     <workspaceConfig>
+        <mappings>
+            <tab>Camping_Item__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Chat</tab>
+        </mappings>
+        <mappings>
+            <tab>Expense__c</tab>
+        </mappings>
+        <mappings>
+            <tab>HelloWorld</tab>
+        </mappings>
+        <mappings>
+            <tab>Objeto_Prueba__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Prueba_hijo__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Rentabilidad__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Taskeando__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>
@@ -190,6 +223,9 @@
         <mappings>
             <fieldName>AccountId</fieldName>
             <tab>standard-Contact</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Knowledge</tab>
         </mappings>
         <mappings>
             <tab>standard-Lead</tab>

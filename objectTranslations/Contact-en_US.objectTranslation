@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Contacto</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Contactos</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active Lookup --></label>
+        <name>Active_Lookup__c</name>
+        <relationshipLabel><!-- Active contacts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Inactive Lookup --></label>
+        <name>Inactive_Lookup__c</name>
+        <relationshipLabel><!-- Contacts (Inactive Lookup) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Languages --></label>
+        <name>Languages__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level --></label>
+        <name>Level__c</name>
+        <picklistValues>
+            <masterLabel>Primary</masterLabel>
+            <translation><!-- Primary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secondary</masterLabel>
+            <translation><!-- Secondary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tertiary</masterLabel>
+            <translation><!-- Tertiary --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>Location__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

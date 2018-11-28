@@ -53,12 +53,12 @@
             <sortOrder>9</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>FeedItem.PollPost</actionName>
+            <actionName>FeedItem.QuestionPost</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>10</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>FeedItem.QuestionPost</actionName>
+            <actionName>FeedItem.PollPost</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>11</sortOrder>
         </platformActionListItems>

@@ -10,6 +10,10 @@
         </feedFilters>
         <feedFilters>
             <feedFilterType>FeedItemType</feedFilterType>
+            <feedItemType>EmailMessageEvent</feedItemType>
+        </feedFilters>
+        <feedFilters>
+            <feedFilterType>FeedItemType</feedFilterType>
             <feedItemType>CallLogPost</feedItemType>
         </feedFilters>
         <feedFilters>
@@ -86,6 +90,18 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Reason</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Email__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Ownername__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>First_contact__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -214,7 +230,16 @@
             <quickActionName>FeedItem.TextPost</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
+            <quickActionName>Case.Email</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>Case.SendEmail</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
             <quickActionName>Case.LogACall</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>Case.CaseComment</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
             <quickActionName>Case.ChangeStatus</quickActionName>
@@ -243,6 +268,13 @@
             </layoutItem>
         </relatedContentItems>
     </relatedContent>
+    <relatedLists>
+        <fields>SOLUTION.ISSUE</fields>
+        <fields>SOLUTION.SOLUTION_NUMBER</fields>
+        <fields>SOLUTION.STATUS</fields>
+        <fields>CORE.USERS.ALIAS</fields>
+        <relatedList>RelatedSolutionList</relatedList>
+    </relatedLists>
     <relatedLists>
         <fields>TASK.SUBJECT</fields>
         <fields>TASK.WHO_NAME</fields>

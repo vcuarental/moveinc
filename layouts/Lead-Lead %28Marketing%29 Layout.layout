@@ -112,7 +112,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>ProductInterest__c</field>
+                <field>Producto_interesado__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -322,6 +322,11 @@
         </quickActionListItems>
     </quickActionList>
     <relatedContent>
+        <relatedContentItems>
+            <layoutItem>
+                <component>wits:newsPanel</component>
+            </layoutItem>
+        </relatedContentItems>
         <relatedContentItems>
             <layoutItem>
                 <behavior>Readonly</behavior>

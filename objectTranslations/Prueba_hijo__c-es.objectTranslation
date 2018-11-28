@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Prueba hijo</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Pruebas hijo</value>
+    </caseValues>
+    <fields>
+        <label><!-- Objeto_Prueba --></label>
+        <name>Objeto_Prueba__c</name>
+        <relationshipLabel><!-- Pruebas hijo --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Taskeanditoss --></label>
+        <name>Taskeanditoss__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

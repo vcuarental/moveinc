@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
-    <excludeButtons>Submit</excludeButtons>
     <layoutSections>
         <customLabel>false</customLabel>
         <detailHeading>false</detailHeading>
@@ -8,42 +7,24 @@
         <label>Account Information</label>
         <layoutColumns>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>OwnerId</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Required</behavior>
                 <field>Name</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>ParentId</field>
+                <field>Description</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>AccountNumber</field>
+                <field>RecordTypeId</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Site</field>
+                <field>Estado__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Type</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Industry</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>AnnualRevenue</field>
-            </layoutItems>
-        </layoutColumns>
-        <layoutColumns>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Rating</field>
+                <field>YearStarted</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -55,11 +36,17 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Website</field>
+                <field>Rapel__c</field>
+            </layoutItems>
+        </layoutColumns>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Indicador_facturas_vencidas__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>TickerSymbol</field>
+                <field>Importe_de_facturas_pendientes__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -67,11 +54,11 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>NumberOfEmployees</field>
+                <field>CustomerPriority__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sic</field>
+                <behavior>Readonly</behavior>
+                <field>Venta_Total__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
@@ -81,19 +68,17 @@
         <detailHeading>false</detailHeading>
         <editHeading>true</editHeading>
         <label>Address Information</label>
-        <layoutColumns>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>BillingAddress</field>
-            </layoutItems>
-        </layoutColumns>
-        <layoutColumns>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>ShippingAddress</field>
-            </layoutItems>
-        </layoutColumns>
+        <layoutColumns/>
+        <layoutColumns/>
         <style>TwoColumnsTopToBottom</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>true</customLabel>
+        <detailHeading>false</detailHeading>
+        <editHeading>true</editHeading>
+        <label>Geolocalización</label>
+        <layoutColumns/>
+        <style>OneColumn</style>
     </layoutSections>
     <layoutSections>
         <customLabel>false</customLabel>
@@ -103,33 +88,17 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>CustomerPriority__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>SLAExpirationDate__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>NumberofLocations__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>Active__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>SLA__c</field>
+                <field>OwnerId</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>SLASerialNumber__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>UpsellOpportunity__c</field>
+                <field>Zona__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
@@ -161,7 +130,7 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Description</field>
+                <field>ParentId</field>
             </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
@@ -171,11 +140,7 @@
         <detailHeading>false</detailHeading>
         <editHeading>false</editHeading>
         <label>Custom Links</label>
-        <layoutColumns>
-            <layoutItems>
-                <customLink>Billing</customLink>
-            </layoutItems>
-        </layoutColumns>
+        <layoutColumns/>
         <layoutColumns/>
         <layoutColumns/>
         <style>CustomLinks</style>
@@ -203,124 +168,109 @@
             <sortOrder>3</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>NewCase</actionName>
+            <actionName>LogACall</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>4</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>LogACall</actionName>
+            <actionName>NewOpportunity</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>5</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>NewNote</actionName>
+            <actionName>NewEvent</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>6</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>NewOpportunity</actionName>
+            <actionName>FeedItem.LinkPost</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>7</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>NewEvent</actionName>
+            <actionName>FeedItem.PollPost</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>8</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>FeedItem.LinkPost</actionName>
+            <actionName>FeedItem.QuestionPost</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>9</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>FeedItem.PollPost</actionName>
+            <actionName>SendEmail</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>10</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>FeedItem.QuestionPost</actionName>
-            <actionType>QuickAction</actionType>
-            <sortOrder>11</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>SendEmail</actionName>
-            <actionType>QuickAction</actionType>
-            <sortOrder>12</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
             <actionName>ChangeOwnerOne</actionName>
             <actionType>StandardButton</actionType>
-            <sortOrder>13</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>IncludeOffline</actionName>
-            <actionType>StandardButton</actionType>
-            <sortOrder>14</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>XClean</actionName>
-            <actionType>StandardButton</actionType>
-            <sortOrder>15</sortOrder>
+            <sortOrder>11</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
             <actionName>Submit</actionName>
             <actionType>StandardButton</actionType>
-            <sortOrder>16</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>SendEmail</actionName>
-            <actionType>StandardButton</actionType>
-            <sortOrder>17</sortOrder>
+            <sortOrder>12</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
             <actionName>JigsawSearch</actionName>
             <actionType>StandardButton</actionType>
-            <sortOrder>18</sortOrder>
+            <sortOrder>13</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
             <actionName>Edit</actionName>
             <actionType>StandardButton</actionType>
-            <sortOrder>19</sortOrder>
+            <sortOrder>14</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
             <actionName>Delete</actionName>
             <actionType>StandardButton</actionType>
-            <sortOrder>20</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>ChangeRecordType</actionName>
-            <actionType>StandardButton</actionType>
-            <sortOrder>21</sortOrder>
+            <sortOrder>15</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
             <actionName>Share</actionName>
             <actionType>StandardButton</actionType>
-            <sortOrder>22</sortOrder>
+            <sortOrder>16</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
             <actionName>AccountHierarchy</actionName>
             <actionType>StandardButton</actionType>
-            <sortOrder>23</sortOrder>
+            <sortOrder>17</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
             <actionName>CallHighlightAction</actionName>
             <actionType>ProductivityAction</actionType>
-            <sortOrder>24</sortOrder>
+            <sortOrder>18</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
             <actionName>SmsHighlightAction</actionName>
             <actionType>ProductivityAction</actionType>
-            <sortOrder>25</sortOrder>
+            <sortOrder>19</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
             <actionName>EmailHighlightAction</actionName>
             <actionType>ProductivityAction</actionType>
-            <sortOrder>26</sortOrder>
+            <sortOrder>20</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
             <actionName>WebsiteHighlightAction</actionName>
             <actionType>ProductivityAction</actionType>
-            <sortOrder>27</sortOrder>
+            <sortOrder>21</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>FeedItem.ContentNote</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>22</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>EnableAsPartner</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>23</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>DisablePartnerPortalAccount</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>24</sortOrder>
         </platformActionListItems>
     </platformActionList>
     <quickActionList>
@@ -337,19 +287,16 @@
             <quickActionName>NewContact</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
-            <quickActionName>NewCase</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
             <quickActionName>LogACall</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
-            <quickActionName>NewNote</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
             <quickActionName>NewOpportunity</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
             <quickActionName>NewEvent</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>FeedItem.ContentNote</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
             <quickActionName>FeedItem.LinkPost</quickActionName>
@@ -367,23 +314,32 @@
     <relatedContent>
         <relatedContentItems>
             <layoutItem>
+                <component>wits:newsPanel</component>
+            </layoutItem>
+        </relatedContentItems>
+        <relatedContentItems>
+            <layoutItem>
                 <component>runtime_sales_social:socialPanel</component>
             </layoutItem>
         </relatedContentItems>
     </relatedContent>
+    <relatedLists>
+        <fields>AddressType</fields>
+        <fields>Parent</fields>
+        <fields>Description</fields>
+        <relatedList>Address.Cliente__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>Tipo_de_forma_de_pago__c</fields>
+        <fields>N_mero__c</fields>
+        <relatedList>Forma_de_pago__c.Cliente__c</relatedList>
+    </relatedLists>
     <relatedLists>
         <fields>FULL_NAME</fields>
         <fields>CONTACT.TITLE</fields>
         <fields>CONTACT.EMAIL</fields>
         <fields>CONTACT.PHONE1</fields>
         <relatedList>RelatedContactList</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>OPPORTUNITY.NAME</fields>
-        <fields>OPPORTUNITY.STAGE_NAME</fields>
-        <fields>OPPORTUNITY.AMOUNT</fields>
-        <fields>OPPORTUNITY.CLOSE_DATE</fields>
-        <relatedList>RelatedOpportunityList</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>CASES.CASE_NUMBER</fields>
@@ -394,6 +350,13 @@
         <fields>CASES.STATUS</fields>
         <fields>OWNER_NAME</fields>
         <relatedList>RelatedCaseList</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>OPPORTUNITY.NAME</fields>
+        <fields>OPPORTUNITY.STAGE_NAME</fields>
+        <fields>OPPORTUNITY.AMOUNT</fields>
+        <fields>OPPORTUNITY.CLOSE_DATE</fields>
+        <relatedList>RelatedOpportunityList</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>TASK.SUBJECT</fields>
@@ -419,12 +382,6 @@
     <relatedLists>
         <relatedList>RelatedNoteList</relatedList>
     </relatedLists>
-    <relatedLists>
-        <fields>ACCOUNT.NAME</fields>
-        <fields>OPPORTUNITY.NAME</fields>
-        <fields>PARTNER.ROLE</fields>
-        <relatedList>RelatedPartnerList</relatedList>
-    </relatedLists>
     <relatedObjects>ParentId</relatedObjects>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
@@ -432,7 +389,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h1a0000012AGq</masterLabel>
+        <masterLabel>00h0Y000004Y5Tm</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

@@ -70,7 +70,11 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <type>Default</type>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Candidato_P_gina_de_registro</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
@@ -184,6 +188,10 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>PartnerAccountId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Phone</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -211,9 +219,9 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>ProductInterest__c</fullName>
+        <fullName>Producto_interesado__c</fullName>
         <externalId>false</externalId>
-        <label>Product Interest</label>
+        <label>Producto interesado</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
@@ -221,19 +229,49 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>GC1000 series</fullName>
+                    <fullName>Cintas adhesivas</fullName>
                     <default>false</default>
-                    <label>GC1000 series</label>
+                    <label>Cintas adhesivas</label>
                 </value>
                 <value>
-                    <fullName>GC5000 series</fullName>
+                    <fullName>Cintas adhesivas especiales</fullName>
                     <default>false</default>
-                    <label>GC5000 series</label>
+                    <label>Cintas adhesivas especiales</label>
                 </value>
                 <value>
-                    <fullName>GC3000 series</fullName>
+                    <fullName>Cintas de doble cara</fullName>
                     <default>false</default>
-                    <label>GC3000 series</label>
+                    <label>Cintas de doble cara</label>
+                </value>
+                <value>
+                    <fullName>Decoración y carrocería</fullName>
+                    <default>false</default>
+                    <label>Decoración y carrocería</label>
+                </value>
+                <value>
+                    <fullName>Carton ondulado</fullName>
+                    <default>false</default>
+                    <label>Carton ondulado</label>
+                </value>
+                <value>
+                    <fullName>Fleje</fullName>
+                    <default>false</default>
+                    <label>Fleje</label>
+                </value>
+                <value>
+                    <fullName>Papel</fullName>
+                    <default>false</default>
+                    <label>Papel</label>
+                </value>
+                <value>
+                    <fullName>Celulosa</fullName>
+                    <default>false</default>
+                    <label>Celulosa</label>
+                </value>
+                <value>
+                    <fullName>Etiquetas</fullName>
+                    <default>false</default>
+                    <label>Etiquetas</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -287,6 +325,15 @@
         <label>My Unread Leads</label>
     </listViews>
     <listViews>
+        <fullName>Panel1_Lead</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Panel1</label>
+        <queue>Panel1</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
         <fullName>TodaysLeads</fullName>
         <filterScope>Everything</filterScope>
         <filters>
@@ -327,6 +374,7 @@
         <customTabListAdditionalFields>FULL_NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>LEAD.COMPANY</customTabListAdditionalFields>
         <customTabListAdditionalFields>LEAD.PHONE</customTabListAdditionalFields>
+        <listViewButtons>Mass_Convert_Leads</listViewButtons>
         <lookupDialogsAdditionalFields>FULL_NAME</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>LEAD.COMPANY</lookupDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>FULL_NAME</lookupPhoneDialogsAdditionalFields>
@@ -343,4 +391,16 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWriteTransfer</sharingModel>
+    <webLinks>
+        <fullName>Mass_Convert_Leads</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Mass Convert Leads</masterLabel>
+        <openType>sidebar</openType>
+        <page>MassLeadConverter</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
 </CustomObject>

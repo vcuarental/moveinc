@@ -6,5 +6,7 @@
     <label>LightningInstrumentation</label>
     <navType>Standard</navType>
     <tabs>standard-LightningInstrumentation</tabs>
+    <tabs>Chat</tabs>
+    <tabs>Rentabilidad__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

@@ -8,11 +8,13 @@
     <label>Sales</label>
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
-    <tabs>standard-WaveHome</tabs>
+    <tabs>HOME</tabs>
     <tabs>standard-Opportunity</tabs>
+    <tabs>standard-Quote</tabs>
     <tabs>standard-Lead</tabs>
     <tabs>standard-Task</tabs>
     <tabs>standard-File</tabs>
+    <tabs>standard-ContentNote</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>standard-Campaign</tabs>
@@ -23,6 +25,15 @@
     <tabs>standard-Event</tabs>
     <tabs>standard-OtherUserProfile</tabs>
     <tabs>standard-Case</tabs>
+    <tabs>standard-News</tabs>
     <tabs>standard-Forecasting3</tabs>
+    <tabs>Objeto_Prueba__c</tabs>
+    <tabs>Prueba_hijo__c</tabs>
+    <tabs>Taskeando__c</tabs>
+    <tabs>HelloWorld</tabs>
+    <tabs>Camping_Item__c</tabs>
+    <tabs>Expense__c</tabs>
+    <tabs>Chat</tabs>
+    <tabs>Rentabilidad__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

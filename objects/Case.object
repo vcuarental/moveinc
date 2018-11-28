@@ -54,7 +54,11 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <type>Default</type>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Case_Record_Page2</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
@@ -117,6 +121,18 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>Email__c</fullName>
+        <externalId>false</externalId>
+        <formula>Contact.Email</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>EngineeringReqNumber__c</fullName>
         <externalId>false</externalId>
         <label>Engineering Req Number</label>
@@ -129,6 +145,23 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>EntitlementId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>First_contact__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>First contact</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>IsClosedOnCreate</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -138,6 +171,20 @@
         <fullName>IsEscalated</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>IsStopped</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>MilestoneStatus</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>MilestoneStatusIcon</fullName>
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
@@ -153,6 +200,17 @@
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Ownername__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(  OwnerId  , &quot;Owner&quot;)</formula>
+        <label>Owner</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>ParentId</fullName>
@@ -192,6 +250,13 @@
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>ProductId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Product__c</fullName>
@@ -286,11 +351,32 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>SlaExitDate</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>SlaStartDate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>SourceId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Status</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>StopStartDate</fullName>
+        <trackTrending>false</trackTrending>
     </fields>
     <fields>
         <fullName>Subject</fullName>
@@ -349,6 +435,33 @@
         <label>All Open Cases</label>
     </listViews>
     <listViews>
+        <fullName>Case_Support_Queue_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Credit Support Queue</label>
+        <queue>Case_Support_Queue</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Credit_Support_Queue2_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Credit Support Queue2</label>
+        <queue>Credit_Support_Queue2</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Debit_Support_Queue_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Debit Support Queue</label>
+        <queue>Debit_Support_Queue</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
         <fullName>MyCases</fullName>
         <filterScope>Mine</filterScope>
         <label>My Cases</label>
@@ -362,6 +475,15 @@
             <value>0</value>
         </filters>
         <label>My Open Cases</label>
+    </listViews>
+    <listViews>
+        <fullName>Panel1_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Panel1</label>
+        <queue>Panel1</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
     </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>CASES.CASE_NUMBER</customTabListAdditionalFields>
@@ -384,7 +506,7 @@
         <searchResultsAdditionalFields>CASES.CREATED_DATE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ReadWriteTransfer</sharingModel>
+    <sharingModel>Private</sharingModel>
     <webLinks>
         <fullName>UpsellCrosssellOpportunity</fullName>
         <availability>online</availability>

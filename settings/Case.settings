@@ -9,14 +9,39 @@
         <feedItemType>EmailMessageEvent</feedItemType>
     </caseFeedItemSettings>
     <closeCaseThroughStatusChange>false</closeCaseThroughStatusChange>
-    <defaultCaseOwner>train_prod2@copa.do</defaultCaseOwner>
+    <defaultCaseOwner>vcb@copado.com</defaultCaseOwner>
     <defaultCaseOwnerType>User</defaultCaseOwnerType>
-    <defaultCaseUser>train_prod2@copa.do</defaultCaseUser>
+    <defaultCaseUser>vcb@copado.com</defaultCaseUser>
     <emailToCase>
-        <enableEmailToCase>false</enableEmailToCase>
+        <enableE2CSourceTracking>true</enableE2CSourceTracking>
+        <enableEmailToCase>true</enableEmailToCase>
+        <enableHtmlEmail>true</enableHtmlEmail>
+        <enableOnDemandEmailToCase>true</enableOnDemandEmailToCase>
+        <enableThreadIDInBody>true</enableThreadIDInBody>
+        <enableThreadIDInSubject>true</enableThreadIDInSubject>
+        <notifyOwnerOnNewCaseEmail>false</notifyOwnerOnNewCaseEmail>
+        <overEmailLimitAction>Bounce</overEmailLimitAction>
+        <preQuoteSignature>false</preQuoteSignature>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email</caseOrigin>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>vicubo@gmail.com</emailAddress>
+            <emailServicesAddress>vicubo@mtpvn7aoqzg0al7vjwqq1ztmh4qhxrfvbtlxfeib10uwo6eyh.0y-2iqoduaq.eu11.case.salesforce.com</emailServicesAddress>
+            <isVerified>true</isVerified>
+            <routingName>EmailDIA</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <unauthorizedSenderAction>Discard</unauthorizedSenderAction>
     </emailToCase>
     <enableCaseFeed>true</enableCaseFeed>
+    <enableDraftEmails>false</enableDraftEmails>
     <enableEarlyEscalationRuleTriggers>false</enableEarlyEscalationRuleTriggers>
+    <enableEmailActionDefaultsHandler>false</enableEmailActionDefaultsHandler>
+    <enableSuggestedArticlesApplication>false</enableSuggestedArticlesApplication>
+    <enableSuggestedArticlesCustomerPortal>false</enableSuggestedArticlesCustomerPortal>
+    <enableSuggestedArticlesPartnerPortal>false</enableSuggestedArticlesPartnerPortal>
     <enableSuggestedSolutions>true</enableSuggestedSolutions>
     <notifyContactOnCaseComment>false</notifyContactOnCaseComment>
     <notifyDefaultCaseOwner>false</notifyDefaultCaseOwner>

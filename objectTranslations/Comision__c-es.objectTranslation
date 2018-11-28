@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Comision</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Comisiones</value>
+    </caseValues>
+    <fields>
+        <label><!-- Comercial --></label>
+        <name>Comercial__c</name>
+        <relationshipLabel><!-- Comisiones --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Importe de comisión --></label>
+        <name>Importe_de_comisi_n__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importe del pedido --></label>
+        <name>Importe_del_pedido__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pedido --></label>
+        <name>Pedido__c</name>
+        <relationshipLabel><!-- Comisiones --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Porcentaje de comisión --></label>
+        <name>Porcentaje_de_comisi_n__c</name>
+    </fields>
+    <gender>Masculine</gender>
+</CustomObjectTranslation>

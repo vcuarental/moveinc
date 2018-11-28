@@ -60,6 +60,15 @@
     <fields>
         <fullName>StartingContext</fullName>
     </fields>
+    <listViews>
+        <fullName>Panel1_Macro</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Panel1</label>
+        <queue>Panel1</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>StartingContext</customTabListAdditionalFields>
         <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>

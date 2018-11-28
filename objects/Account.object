@@ -54,7 +54,11 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <type>Default</type>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>New_Account_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>ViewCustomerPortalUser</actionName>
@@ -64,7 +68,15 @@
         <actionName>WebsiteHighlightAction</actionName>
         <type>Default</type>
     </actionOverrides>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>Compact</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Compact</fullName>
+        <fields>Name</fields>
+        <fields>OwnerId</fields>
+        <fields>RecordTypeId</fields>
+        <fields>Active__c</fields>
+        <label>Compact</label>
+    </compactLayouts>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
     <fields>
@@ -108,8 +120,43 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>ChannelProgramLevelName</fullName>
+    </fields>
+    <fields>
+        <fullName>ChannelProgramName</fullName>
+    </fields>
+    <fields>
         <fullName>CleanStatus</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Competidor_habitual__c</fullName>
+        <externalId>false</externalId>
+        <label>Competidor habitual</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Dia</fullName>
+                    <default>false</default>
+                    <label>Dia</label>
+                </value>
+                <value>
+                    <fullName>Corte Inglés</fullName>
+                    <default>false</default>
+                    <label>Corte Inglés</label>
+                </value>
+                <value>
+                    <fullName>Macro</fullName>
+                    <default>false</default>
+                    <label>Macro</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>CustomerPriority__c</fullName>
@@ -146,20 +193,82 @@
     </fields>
     <fields>
         <fullName>Description</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
+        <trackFeedHistory>true</trackFeedHistory>
     </fields>
     <fields>
         <fullName>DunsNumber</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Estado__c</fullName>
+        <externalId>false</externalId>
+        <label>Estado</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Potencial</fullName>
+                    <default>false</default>
+                    <label>Potencial</label>
+                </value>
+                <value>
+                    <fullName>Nuevo</fullName>
+                    <default>false</default>
+                    <label>Nuevo</label>
+                </value>
+                <value>
+                    <fullName>Recurrente</fullName>
+                    <default>false</default>
+                    <label>Recurrente</label>
+                </value>
+                <value>
+                    <fullName>Perdido</fullName>
+                    <default>false</default>
+                    <label>Perdido</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Fax</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Importe_de_facturas_pendientes__c</fullName>
+        <externalId>false</externalId>
+        <label>Importe de facturas pendientes</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
         <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Indicador_facturas_vencidas__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Importe_de_facturas_pendientes__c&gt;0,IMAGE(&quot;https://vicubo-dev-ed--c.eu11.visual.force.com/resource/1532338926000/alertIcon&quot;,&quot;FACTURAS PENDIENTE&quot;, 40,40),IMAGE(&quot;https://vicubo-dev-ed--c.eu11.visual.force.com/resource/1532338912000/sucessIcon&quot;,&quot;SIN FACTURAS PENDIENTE&quot;, 40,40))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Facturas vencidas</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Industry</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
+        <trackFeedHistory>true</trackFeedHistory>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>IsCustomerPortal</fullName>
+    </fields>
+    <fields>
+        <fullName>IsPartner</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>Jigsaw</fullName>
@@ -179,7 +288,7 @@
     </fields>
     <fields>
         <fullName>NumberOfEmployees</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
+        <trackFeedHistory>true</trackFeedHistory>
     </fields>
     <fields>
         <fullName>NumberofLocations__c</fullName>
@@ -193,13 +302,18 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>OperatingHoursId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>OwnerId</fullName>
         <trackFeedHistory>true</trackFeedHistory>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Ownership</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
+        <trackFeedHistory>true</trackFeedHistory>
         <type>Picklist</type>
     </fields>
     <fields>
@@ -209,12 +323,179 @@
     </fields>
     <fields>
         <fullName>Phone</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Rapel__c</fullName>
+        <externalId>false</externalId>
+        <label>Rapel</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
         <trackFeedHistory>false</trackFeedHistory>
+        <type>Percent</type>
     </fields>
     <fields>
         <fullName>Rating</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__AssetQuantitiesCombined__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Option to combine quantities of multiple assets for the same product into one line when renewal quote is generated.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Option to combine quantities of multiple assets for the same product into one line when renewal quote is generated.</inlineHelpText>
+        <label>Combine Asset Quantities</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__CoTermedContractsCombined__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Flag that controls whether assets and subscriptions from multiple co-teremed contracts are rolled up together. By default, each co-termed contract generates a separate group on renewal quote.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable to combine assets and subscriptions from multiple co-termed contracts. By default, each co-termed contract generates a separate group on renewal quote.</inlineHelpText>
+        <label>Combine Co-Termed Contracts</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__CoTerminationEvent__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Determines when contracts are co-terminated.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Determines when contracts are co-terminated.</inlineHelpText>
+        <label>Co-Termination Event</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>SBQQ__ContractCoTermination__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Add-on</fullName>
+                    <default>false</default>
+                    <label>Add-on</label>
+                </value>
+                <value>
+                    <fullName>Renewal</fullName>
+                    <default>false</default>
+                    <label>Renewal</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Always</controllingFieldValue>
+                <controllingFieldValue>Prompt</controllingFieldValue>
+                <valueName>Add-on</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Always</controllingFieldValue>
+                <valueName>Renewal</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SBQQ__ContractCoTermination__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Determines how service and subscription contracts for this customer are co-terminated.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Determines how service and subscription contracts for this customer are co-terminated.</inlineHelpText>
+        <label>Contract Co-Termination</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Never</fullName>
+                    <default>true</default>
+                    <label>Never</label>
+                </value>
+                <value>
+                    <fullName>Always</fullName>
+                    <default>false</default>
+                    <label>Always</label>
+                </value>
+                <value>
+                    <fullName>Prompt</fullName>
+                    <default>false</default>
+                    <label>Prompt</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SBQQ__DefaultOpportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Default opportunity for this account used by an e-Commerce module to obtain the customer&apos;s price book and associate with &quot;shopping cart&quot; quotes.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Default opportunity for this account used by an e-Commerce module to obtain the customer&apos;s price book and associate with &quot;shopping cart&quot; quotes.</inlineHelpText>
+        <label>Default Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Accounts</relationshipLabel>
+        <relationshipName>WebAccounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__IgnoreParentContractedPrices__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Select if contracted prices should not be inherited from the parent account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select if contracted prices should not be inherited from the parent account.</inlineHelpText>
+        <label>Ignore Parent Contracted Prices</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__PriceHoldEnd__c</fullName>
+        <deprecated>false</deprecated>
+        <description>End date for any price hold that may be in effect.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter date until which the prices must be held.</inlineHelpText>
+        <label>Price Hold End</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__RenewalPricingMethod__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Method for pricing products on renewal.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Use &quot;Same&quot; to keep the same price paid last time. Use &quot;List&quot; to use current list price. Use &quot;Uplift&quot; to use the price paid last time plus some uplift.</inlineHelpText>
+        <label>Renewal Pricing Method</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Same</fullName>
+                    <default>true</default>
+                    <label>Same</label>
+                </value>
+                <value>
+                    <fullName>List</fullName>
+                    <default>false</default>
+                    <label>List</label>
+                </value>
+                <value>
+                    <fullName>Uplift</fullName>
+                    <default>false</default>
+                    <label>Uplift</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>SLAExpirationDate__c</fullName>
@@ -268,6 +549,45 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Segmentacion_Text__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( (Venta_Total__c &gt; 5000),  (IMAGE(&quot;/servlet/servlet.ImageServer?id=0150Y000002mYmn&amp;oid=00D0Y000002iqoD&amp;lastMod=1530001379000&quot;, &quot;Cliente de Oro&quot;,300,100 )),  (IF((Venta_Total__c = 5000), (IMAGE(&quot;/servlet/servlet.ImageServer?id=0150Y000002mYms&amp;oid=00D0Y000002iqoD&amp;lastMod=1530001437000&quot;, &quot;Cliente de Plata&quot;,300,100 )), (IMAGE(&quot;/servlet/servlet.ImageServer?id=0150Y000002mXSD&amp;oid=00D0Y000002iqoD&amp;lastMod=1530001220000&quot;, &quot;Cliente de Bronce&quot;,300,100 )) ) ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Segmentación</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Segmentacion__c</fullName>
+        <externalId>false</externalId>
+        <label>Segmentación</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Oro</fullName>
+                    <default>false</default>
+                    <label>Oro</label>
+                </value>
+                <value>
+                    <fullName>Plata</fullName>
+                    <default>false</default>
+                    <label>Plata</label>
+                </value>
+                <value>
+                    <fullName>Bronce</fullName>
+                    <default>false</default>
+                    <label>Bronce</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>ShippingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -286,6 +606,40 @@
     <fields>
         <fullName>TickerSymbol</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Tipo_Segmentacion__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( (Venta_Total__c &gt; 5000), &quot;ORO&quot;, (IF((Venta_Total__c = 5000), &quot;PLATA&quot;, &quot;BRONCE&quot; ) ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Tipo Segmentación</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tipo_de_Cliente__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo de Cliente</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Físico</fullName>
+                    <default>false</default>
+                    <label>Físico</label>
+                </value>
+                <value>
+                    <fullName>Jurídico</fullName>
+                    <default>false</default>
+                    <label>Jurídico</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>Tradestyle</fullName>
@@ -325,17 +679,158 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Venta_Total__c</fullName>
+        <externalId>false</externalId>
+        <label>Venta Total</label>
+        <summarizedField>Opportunity.Amount</summarizedField>
+        <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <type>Summary</type>
+    </fields>
+    <fields>
         <fullName>Website</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
+        <trackFeedHistory>true</trackFeedHistory>
     </fields>
     <fields>
         <fullName>YearStarted</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Zona__c</fullName>
+        <externalId>false</externalId>
+        <label>Zona</label>
+        <length>50</length>
+        <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <listViews>
         <fullName>AllAccounts</fullName>
         <filterScope>Everything</filterScope>
         <label>All Accounts</label>
+    </listViews>
+    <listViews>
+        <fullName>Mis_clientes_bronce</fullName>
+        <booleanFilter>1 AND 2  AND 3 AND 4 AND 5</booleanFilter>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.SITE</columns>
+        <columns>ACCOUNT.ADDRESS1_STATE</columns>
+        <columns>ACCOUNT.PHONE1</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Tipo_Segmentacion__c</field>
+            <operation>equals</operation>
+            <value>BRONCE</value>
+        </filters>
+        <filters>
+            <field>ACCOUNT.NAME</field>
+            <operation>notContain</operation>
+            <value>000</value>
+        </filters>
+        <filters>
+            <field>ACCOUNT.NAME</field>
+            <operation>notContain</operation>
+            <value>Account</value>
+        </filters>
+        <filters>
+            <field>ACCOUNT.NAME</field>
+            <operation>notContain</operation>
+            <value>sForce</value>
+        </filters>
+        <filters>
+            <field>ACCOUNT.NAME</field>
+            <operation>notContain</operation>
+            <value>Prueba</value>
+        </filters>
+        <label>Mis clientes bronce</label>
+    </listViews>
+    <listViews>
+        <fullName>Mis_clientes_f_sicos</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.SITE</columns>
+        <columns>ACCOUNT.ADDRESS1_STATE</columns>
+        <columns>ACCOUNT.PHONE1</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>ACCOUNT.RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Account.Account_Rec_Type</value>
+        </filters>
+        <filters>
+            <field>ACCOUNT.NAME</field>
+            <operation>notContain</operation>
+            <value>0000</value>
+        </filters>
+        <filters>
+            <field>ACCOUNT.NAME</field>
+            <operation>startsWith</operation>
+            <value>Juan</value>
+        </filters>
+        <label>Mis clientes físicos</label>
+    </listViews>
+    <listViews>
+        <fullName>Mis_clientes_jur_dicos</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.SITE</columns>
+        <columns>ACCOUNT.ADDRESS1_STATE</columns>
+        <columns>ACCOUNT.PHONE1</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>ACCOUNT.RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Account.Juridico</value>
+        </filters>
+        <label>Mis clientes jurídicos</label>
+    </listViews>
+    <listViews>
+        <fullName>Mis_clientes_nuevos</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.SITE</columns>
+        <columns>ACCOUNT.ADDRESS1_STATE</columns>
+        <columns>ACCOUNT.PHONE1</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <label>Mis clientes nuevos</label>
+    </listViews>
+    <listViews>
+        <fullName>Mis_clientes_oro</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.SITE</columns>
+        <columns>ACCOUNT.ADDRESS1_STATE</columns>
+        <columns>ACCOUNT.PHONE1</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>Tipo_Segmentacion__c</field>
+            <operation>equals</operation>
+            <value>ORO</value>
+        </filters>
+        <label>Mis clientes oro</label>
+    </listViews>
+    <listViews>
+        <fullName>Mis_clientes_plata</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.SITE</columns>
+        <columns>ACCOUNT.ADDRESS1_STATE</columns>
+        <columns>ACCOUNT.PHONE1</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Tipo_Segmentacion__c</field>
+            <operation>equals</operation>
+            <value>PLATA</value>
+        </filters>
+        <label>Mis clientes plata</label>
     </listViews>
     <listViews>
         <fullName>MyAccounts</fullName>
@@ -372,6 +867,755 @@
         <filterScope>Everything</filterScope>
         <label>Platinum and Gold SLA Customers</label>
     </listViews>
+    <recordTypeTrackFeedHistory>true</recordTypeTrackFeedHistory>
+    <recordTypes>
+        <fullName>Account_Rec_Type</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Compact</compactLayoutAssignment>
+        <label>Físico</label>
+        <picklistValues>
+            <picklist>AccountSource</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Active__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Competidor_habitual__c</picklist>
+            <values>
+                <fullName>Corte Inglés</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Macro</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CustomerPriority__c</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Estado__c</picklist>
+            <values>
+                <fullName>Nuevo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Perdido</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Potencial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recurrente</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Industry</picklist>
+            <values>
+                <fullName>Agriculture</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Apparel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Banking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Biotechnology</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chemicals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Communications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Construction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consulting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Education</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electronics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Energy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineering</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Entertainment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Environmental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Finance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Food %26 Beverage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Government</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Healthcare</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hospitality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Insurance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machinery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manufacturing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Media</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not For Profit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recreation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shipping</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technology</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telecommunications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transportation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Utilities</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Ownership</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Private</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Subsidiary</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Rating</picklist>
+            <values>
+                <fullName>Cold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warm</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SBQQ__CoTerminationEvent__c</picklist>
+            <values>
+                <fullName>Add-on</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Renewal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SBQQ__ContractCoTermination__c</picklist>
+            <values>
+                <fullName>Always</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Never</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Prompt</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SBQQ__RenewalPricingMethod__c</picklist>
+            <values>
+                <fullName>List</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Same</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Uplift</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SLA__c</picklist>
+            <values>
+                <fullName>Bronze</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Platinum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Silver</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Segmentacion__c</picklist>
+            <values>
+                <fullName>Bronce</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Plata</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_Cliente__c</picklist>
+            <values>
+                <fullName>Físico</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Channel Partner %2F Reseller</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer - Channel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer - Direct</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Installation Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prospect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technology Partner</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>UpsellOpportunity__c</picklist>
+            <values>
+                <fullName>Maybe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Juridico</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Compact</compactLayoutAssignment>
+        <label>Jurídico</label>
+        <picklistValues>
+            <picklist>AccountSource</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Active__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Competidor_habitual__c</picklist>
+            <values>
+                <fullName>Corte Inglés</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Macro</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CustomerPriority__c</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Estado__c</picklist>
+            <values>
+                <fullName>Nuevo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Perdido</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Potencial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recurrente</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Industry</picklist>
+            <values>
+                <fullName>Agriculture</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Apparel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Banking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Biotechnology</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chemicals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Communications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Construction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consulting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Education</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electronics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Energy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineering</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Entertainment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Environmental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Finance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Food %26 Beverage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Government</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Healthcare</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hospitality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Insurance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machinery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manufacturing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Media</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not For Profit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recreation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shipping</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technology</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telecommunications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transportation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Utilities</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Ownership</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Private</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Subsidiary</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Rating</picklist>
+            <values>
+                <fullName>Cold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warm</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SBQQ__CoTerminationEvent__c</picklist>
+            <values>
+                <fullName>Add-on</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Renewal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SBQQ__ContractCoTermination__c</picklist>
+            <values>
+                <fullName>Always</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Never</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Prompt</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SBQQ__RenewalPricingMethod__c</picklist>
+            <values>
+                <fullName>List</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Same</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Uplift</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SLA__c</picklist>
+            <values>
+                <fullName>Bronze</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Platinum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Silver</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Segmentacion__c</picklist>
+            <values>
+                <fullName>Bronce</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Plata</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_Cliente__c</picklist>
+            <values>
+                <fullName>Jurídico</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Channel Partner %2F Reseller</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer - Channel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer - Direct</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Installation Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prospect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technology Partner</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>UpsellOpportunity__c</picklist>
+            <values>
+                <fullName>Maybe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>

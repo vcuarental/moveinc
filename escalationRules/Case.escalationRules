@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EscalationRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <escalationRule>
-        <fullName>Standard</fullName>
+        <fullName>Panel1</fullName>
         <active>true</active>
         <ruleEntry>
             <businessHoursSource>Case</businessHoursSource>
+            <escalationAction>
+                <assignedTo>vcb@copado.com</assignedTo>
+                <assignedToType>User</assignedToType>
+                <minutesToEscalation>1800</minutesToEscalation>
+                <notifyCaseOwner>false</notifyCaseOwner>
+            </escalationAction>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+    </escalationRule>
+    <escalationRule>
+        <fullName>Standard</fullName>
+        <active>false</active>
+        <ruleEntry>
+            <businessHours>Default</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
                 <operation>equals</operation>
@@ -21,12 +36,12 @@
                 <value>High</value>
             </criteriaItems>
             <escalationAction>
-                <assignedTo>train_prod2@copa.do</assignedTo>
+                <assignedTo>vcb@copado.com</assignedTo>
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
-                <minutesToEscalation>120</minutesToEscalation>
+                <minutesToEscalation>1440</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
-                <notifyTo>train_prod2@copa.do</notifyTo>
+                <notifyTo>vcb@copado.com</notifyTo>
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
@@ -49,12 +64,12 @@
                 <value>Medium,Low</value>
             </criteriaItems>
             <escalationAction>
-                <assignedTo>train_prod2@copa.do</assignedTo>
+                <assignedTo>vcb@copado.com</assignedTo>
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>360</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
-                <notifyTo>train_prod2@copa.do</notifyTo>
+                <notifyTo>vcb@copado.com</notifyTo>
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
@@ -77,12 +92,12 @@
                 <value>High</value>
             </criteriaItems>
             <escalationAction>
-                <assignedTo>train_prod2@copa.do</assignedTo>
+                <assignedTo>vcb@copado.com</assignedTo>
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>240</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
-                <notifyTo>train_prod2@copa.do</notifyTo>
+                <notifyTo>vcb@copado.com</notifyTo>
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
@@ -105,12 +120,12 @@
                 <value>Medium,Low</value>
             </criteriaItems>
             <escalationAction>
-                <assignedTo>train_prod2@copa.do</assignedTo>
+                <assignedTo>vcb@copado.com</assignedTo>
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>480</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
-                <notifyTo>train_prod2@copa.do</notifyTo>
+                <notifyTo>vcb@copado.com</notifyTo>
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
@@ -128,12 +143,12 @@
                 <value>Silver</value>
             </criteriaItems>
             <escalationAction>
-                <assignedTo>train_prod2@copa.do</assignedTo>
+                <assignedTo>vcb@copado.com</assignedTo>
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
-                <minutesToEscalation>720</minutesToEscalation>
+                <minutesToEscalation>30</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
-                <notifyTo>train_prod2@copa.do</notifyTo>
+                <notifyTo>vcb@copado.com</notifyTo>
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
@@ -151,12 +166,12 @@
                 <value>Bronze</value>
             </criteriaItems>
             <escalationAction>
-                <assignedTo>train_prod2@copa.do</assignedTo>
+                <assignedTo>vcb@copado.com</assignedTo>
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>1440</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
-                <notifyTo>train_prod2@copa.do</notifyTo>
+                <notifyTo>vcb@copado.com</notifyTo>
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
@@ -174,12 +189,12 @@
                 <value>Gold,Platinum</value>
             </criteriaItems>
             <escalationAction>
-                <assignedTo>train_prod2@copa.do</assignedTo>
+                <assignedTo>vcb@copado.com</assignedTo>
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>360</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
-                <notifyTo>train_prod2@copa.do</notifyTo>
+                <notifyTo>vcb@copado.com</notifyTo>
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
@@ -197,12 +212,12 @@
                 <value>Silver,Bronze</value>
             </criteriaItems>
             <escalationAction>
-                <assignedTo>train_prod2@copa.do</assignedTo>
+                <assignedTo>vcb@copado.com</assignedTo>
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>1080</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
-                <notifyTo>train_prod2@copa.do</notifyTo>
+                <notifyTo>vcb@copado.com</notifyTo>
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>

@@ -1,10 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <assignmentRule>
-        <fullName>Standard</fullName>
+        <fullName>Assign Panel1</fullName>
         <active>true</active>
         <ruleEntry>
-            <assignedTo>train_prod2@copa.do</assignedTo>
+            <assignedTo>Panel1</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Description</field>
+                <operation>contains</operation>
+                <value>Panel1</value>
+            </criteriaItems>
+        </ruleEntry>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>Credit Andorra Cards</fullName>
+        <active>false</active>
+        <ruleEntry>
+            <assignedTo>Debit_Support_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Subject</field>
+                <operation>contains</operation>
+                <value>debito</value>
+            </criteriaItems>
+        </ruleEntry>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>Standard</fullName>
+        <active>false</active>
+        <ruleEntry>
+            <assignedTo>vcb@copado.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -23,7 +49,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>train_prod2@copa.do</assignedTo>
+            <assignedTo>vcb@copado.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -42,7 +68,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>train_prod2@copa.do</assignedTo>
+            <assignedTo>vcb@copado.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -61,7 +87,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>train_prod2@copa.do</assignedTo>
+            <assignedTo>vcb@copado.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -80,7 +106,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>train_prod2@copa.do</assignedTo>
+            <assignedTo>vcb@copado.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.Type</field>

@@ -54,6 +54,18 @@
         <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
     </fields>
+    <fields>
+        <fullName>Tienda__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Tienda</label>
+        <referenceTo>Tienda__c</referenceTo>
+        <relationshipLabel>Price Books</relationshipLabel>
+        <relationshipName>Price_Books</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
     <searchLayouts>
         <customTabListAdditionalFields>PRICEBOOK2.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>PRICEBOOK2.DESCRIPTION</customTabListAdditionalFields>

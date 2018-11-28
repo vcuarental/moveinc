@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Forma de pago</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Formas de pago</value>
+    </caseValues>
+    <fields>
+        <label><!-- Cliente --></label>
+        <name>Cliente__c</name>
+        <relationshipLabel><!-- Formas de pago --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Número --></label>
+        <name>N_mero__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo de forma de pago --></label>
+        <name>Tipo_de_forma_de_pago__c</name>
+        <picklistValues>
+            <masterLabel>Contado</masterLabel>
+            <translation><!-- Contado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tarjeta</masterLabel>
+            <translation><!-- Tarjeta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia bancaria</masterLabel>
+            <translation><!-- Transferencia bancaria --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

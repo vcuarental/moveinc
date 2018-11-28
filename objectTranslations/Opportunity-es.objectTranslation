@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Venta</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Ventas</value>
+    </caseValues>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Acceso a ventas</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_access</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Nivel de acceso a la venta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_access_level</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Alerta de venta</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_alert</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Importe de la venta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_amount</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Maletín de ventas</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_based_briefcase</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Fecha de cierre de la venta</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_close_date</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Venta cerrada</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_closed</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Competidor de ventas</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_competitor</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Informe del competidor de ventas</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_competitor_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Contacto de venta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_contact</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Informe de contacto de venta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_contact_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Función del contacto de ventas</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Funciones del contacto de la venta</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_contact_role</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Creador de ventas</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_creator</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Divisa de la venta</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_currency</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Descripción de la venta</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_description</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Página de detalles de venta</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_detail_page</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>División de ventas</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_division</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Modificación de la venta</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_edit</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Campo de la venta</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Campos de venta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_field</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Historial de campos de ventas</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_field_history</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>ID de historial de campos de ventas</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_field_history_id</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Informe de historial de campos de ventas</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_field_history_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Previsión de ventas</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Previsiones de ventas</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_forecast</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Categoría de previsión de ventas</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_forecast_category</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Modificación de previsión de ventas</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_forecast_edit</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Historial de ventas</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_history</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Id. del historial de ventas</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_history_id</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Información del historial de la venta</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_history_information</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Informe de historial de ventas</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_history_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Id. de la venta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_id</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Info de la venta</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_info</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Información de la venta</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_information</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Origen del candidato de la venta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_lead_source</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Partida de la venta</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_line_item</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Campo de partida de venta</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Campos de partida de venta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_line_item_field</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Id. de la partida de venta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_line_item_id</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Nombre de la venta</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Nombres de ventas</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_name</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Propietario de venta</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Propietarios de ventas</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_owner</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Alias del propietario de la venta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_owner_alias</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Correo electrónico del propietario de la venta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_owner_email</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Informe de socio de venta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_partner_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Listas de selección de la venta</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_picklists</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Ventas en proceso</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_pipeline</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Tendencia de las ventas en curso</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_pipeline_trend</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Nombre de producto de venta</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Nombres de productos de ventas</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_product_name</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Cantidad de venta</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_quantity</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Tipo de registro de la venta</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Tipos de registro de ventas</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_record_type</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Informe de las ventas</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Informes de ventas</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Informe de programación de ventas</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_schedule_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Origen de la venta</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Orígenes de las ventas</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_source</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Etapa de la venta</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Etapas de la venta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_stage</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Informe de duración de las etapas de la venta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_stage_duration_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Id. de etapa de la venta</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_stage_id</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Nombre de etapa de la venta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_stage_name</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Valor de lista de selección Etapa de la venta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_stage_picklist_value</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Estado de etapa de la venta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_stage_status</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Estado de la venta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_status</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Equipo de ventas</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Equipos de ventas</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_team</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Miembro del equipo de ventas</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Miembros del equipo de ventas</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_team_member</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Campo Miembro del equipo de ventas</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Campos Miembro del equipo de ventas</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_team_member_field</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Id. del miembro del equipo de ventas</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_team_member_id</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Informe de ventas con equipos de ventas y productos</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_team_product_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Informe de equipo de ventas</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Informes de equipos de ventas</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_team_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Territorio de venta</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Territorios de venta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_territory</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Territorio de venta</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Territorios de ventas</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_territory2</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Informe de territorio de venta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_territory_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Tendencia de ventas</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Tendencias de ventas</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_trend</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Información de tendencia de ventas</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_trend_information</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Informe de tendencias de la venta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_trend_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Tipo de venta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_type</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Vista de la venta</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Vistas de ventas</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_view</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Approved</masterLabel>
+            <translation><!-- Not Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Current Generator(s) --></label>
+        <name>CurrentGenerators__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery/Installation Status --></label>
+        <name>DeliveryInstallationStatus__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation>Completado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In progress</masterLabel>
+            <translation>En progreso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yet to begin</masterLabel>
+            <translation>Sin empezar</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Discount Percentage --></label>
+        <name>Discount_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Main Competitor(s) --></label>
+        <name>MainCompetitors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Number --></label>
+        <name>OrderNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent opportunity --></label>
+        <name>Parent_opportunity__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Rentabilidad Venta --></label>
+        <name>Rentabilidad_Venta__c</name>
+        <relationshipLabel><!-- Ventas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Rentabilidad --></label>
+        <name>Rentabilidad__c</name>
+        <relationshipLabel><!-- Ventas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Amended Contract --></label>
+        <name>SBQQ__AmendedContract__c</name>
+        <relationshipLabel><!-- Amendment Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- SteelBrick CPQ uses this field to automatically convert assets and subscriptions. --></help>
+        <label><!-- Contracted --></label>
+        <name>SBQQ__Contracted__c</name>
+    </fields>
+    <fields>
+        <help><!-- SteelBrick CPQ uses this to point to the primary quote on this opportunity. --></help>
+        <label><!-- Primary Quote --></label>
+        <name>SBQQ__PrimaryQuote__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Counts the number of quotes for this opportunity. --></help>
+        <label><!-- Quote Count --></label>
+        <name>SBQQ__QuoteCount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Pricebook Id --></label>
+        <name>SBQQ__QuotePricebookId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates this opportunity is a renewal opportunity. --></help>
+        <label><!-- Renewal --></label>
+        <name>SBQQ__Renewal__c</name>
+    </fields>
+    <fields>
+        <help><!-- Contract being renewed by this renewal opportunity. If the several contracts roll up to this opportunity, this points at the master contract. --></help>
+        <label><!-- Renewed Contract --></label>
+        <name>SBQQ__RenewedContract__c</name>
+        <relationshipLabel><!-- Renewal Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tienda --></label>
+        <name>Tienda__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking Number --></label>
+        <name>TrackingNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zona de venta --></label>
+        <name>Zona_de_venta__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <recordTypes>
+        <label><!-- Opp rec type --></label>
+        <name>Opp_rec_type</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- DeliveryStatus --></label>
+        <name>DeliveryStatus</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Include_Document --></label>
+        <name>SBQQ__Include_Document</name>
+    </webLinks>
+</CustomObjectTranslation>

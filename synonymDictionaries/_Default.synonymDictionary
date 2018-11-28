@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SynonymDictionary xmlns="http://soap.sforce.com/2006/04/metadata">
+    <groups>
+        <languages>en_US</languages>
+        <languages>zh_CN</languages>
+        <languages>nl_NL</languages>
+        <languages>zh_TW</languages>
+        <languages>de</languages>
+        <languages>es</languages>
+        <languages>es_MX</languages>
+        <languages>fr</languages>
+        <languages>it</languages>
+        <languages>ja</languages>
+        <languages>ko</languages>
+        <languages>no</languages>
+        <languages>ru</languages>
+        <languages>sv</languages>
+        <languages>th</languages>
+        <languages>pt_BR</languages>
+        <languages>fi</languages>
+        <languages>da</languages>
+        <terms>espreso</terms>
+        <terms>espresso</terms>
+        <terms>expreso</terms>
+        <terms>expresso</terms>
+    </groups>
+    <label>_Default</label>
+</SynonymDictionary>

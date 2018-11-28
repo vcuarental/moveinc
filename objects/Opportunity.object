@@ -38,9 +38,87 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <type>Default</type>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Venta_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
     </actionOverrides>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <businessProcesses>
+        <fullName>Proceso de venta Comercial Fama</fullName>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Aprobada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perdido</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Propuesta %2F Presupuesto de precios</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revisión de Negociación</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <businessProcesses>
+        <fullName>Sales process 1</fullName>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Análisis de percepción</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aprobada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calificación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Id%2E de tomadores de decisión</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Necesita Análisis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perdido</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Propuesta %2F Presupuesto de precios</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Propuesta de Valor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospección</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revisión de Negociación</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <compactLayoutAssignment>Compact_LO_Custom</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Compact_LO_Custom</fullName>
+        <fields>Name</fields>
+        <fields>OrderNumber__c</fields>
+        <fields>AccountId</fields>
+        <fields>CloseDate</fields>
+        <fields>Amount</fields>
+        <fields>OwnerId</fields>
+        <label>Compact_LO_Custom</label>
+    </compactLayouts>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
     <fields>
@@ -53,6 +131,36 @@
         <fullName>Amount</fullName>
         <trackFeedHistory>true</trackFeedHistory>
         <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Approval_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Approval Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pending</fullName>
+                    <default>false</default>
+                    <label>Pending</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Not Approved</fullName>
+                    <default>false</default>
+                    <label>Not Approved</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>CampaignId</fullName>
@@ -117,6 +225,18 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>Discount_Percentage__c</fullName>
+        <externalId>false</externalId>
+        <label>Discount Percentage</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>ExpectedRevenue</fullName>
         <trackTrending>false</trackTrending>
     </fields>
@@ -174,6 +294,24 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Parent_opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Parent opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Opportunities</relationshipLabel>
+        <relationshipName>Opportunities</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PartnerAccountId</fullName>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Pricebook2Id</fullName>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
@@ -184,10 +322,157 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>Rentabilidad_Venta__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Rentabilidad Venta</label>
+        <referenceTo>Rentabilidades_Ventas__c</referenceTo>
+        <relationshipLabel>Ventas</relationshipLabel>
+        <relationshipName>Ventas</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Rentabilidad__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Rentabilidad</label>
+        <referenceTo>Rentabilidad__c</referenceTo>
+        <relationshipLabel>Ventas</relationshipLabel>
+        <relationshipName>Ventas</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__AmendedContract__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Amended Contract</label>
+        <referenceTo>Contract</referenceTo>
+        <relationshipLabel>Amendment Opportunities</relationshipLabel>
+        <relationshipName>AmendmentOpportunities</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__Contracted__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Internal flag used to kick off automatic asset and subscription conversion.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>SteelBrick CPQ uses this field to automatically convert assets and subscriptions.</inlineHelpText>
+        <label>Contracted</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__PrimaryQuote__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Points to primary quote on this opportunity.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>SteelBrick CPQ uses this to point to the primary quote on this opportunity.</inlineHelpText>
+        <label>Primary Quote</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>$Source.Id</field>
+                <operation>equals</operation>
+                <valueField>SBQQ__Quote__c.SBQQ__Opportunity__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>SBQQ__Quote__c</referenceTo>
+        <relationshipLabel>Opportunities</relationshipLabel>
+        <relationshipName>PrimaryOpportunities</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__QuoteCount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Counts the number of quotes for this opportunity.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Counts the number of quotes for this opportunity.</inlineHelpText>
+        <label>Quote Count</label>
+        <summaryForeignKey>SBQQ__Quote__c.SBQQ__Opportunity__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__QuotePricebookId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Custom pricebook ID field that updates the standard Pricebook2Id field. Use to automatically drive pricebook selection from workflow rules.</description>
+        <externalId>false</externalId>
+        <label>Quote Pricebook Id</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SBQQ__Renewal__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates this opportunity is a renewal opportunity.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates this opportunity is a renewal opportunity.</inlineHelpText>
+        <label>Renewal</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__RenewedContract__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Contract being renewed by this renewal opportunity. In case opportunity rolls up several contracts this points at the master contract.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Contract being renewed by this renewal opportunity. If the several contracts roll up to this opportunity, this points at the master contract.</inlineHelpText>
+        <label>Renewed Contract</label>
+        <referenceTo>Contract</referenceTo>
+        <relationshipLabel>Renewal Opportunities</relationshipLabel>
+        <relationshipName>RenewalOpportunities</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>StageName</fullName>
         <trackFeedHistory>true</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>SyncedQuoteId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Tienda__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( Owner.Manager.Tienda_asociada__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Tienda</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>TotalOpportunityQuantity</fullName>
@@ -210,6 +495,17 @@
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Zona_de_venta__c</fullName>
+        <externalId>false</externalId>
+        <label>Zona de venta</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <listViews>
         <fullName>AllOpportunities</fullName>
@@ -262,16 +558,6 @@
         <label>My Opportunities</label>
     </listViews>
     <listViews>
-        <fullName>NewLastWeek</fullName>
-        <filterScope>Everything</filterScope>
-        <filters>
-            <field>OPPORTUNITY.CREATED_DATE</field>
-            <operation>equals</operation>
-            <value>LAST_WEEK</value>
-        </filters>
-        <label>New Last Week</label>
-    </listViews>
-    <listViews>
         <fullName>NewThisWeek</fullName>
         <filterScope>Everything</filterScope>
         <filters>
@@ -282,14 +568,26 @@
         <label>New This Week</label>
     </listViews>
     <listViews>
-        <fullName>Private</fullName>
+        <fullName>Oportunidades_Venta_de_Coches</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>CORE.USERS.ALIAS</columns>
         <filterScope>Everything</filterScope>
-        <filters>
-            <field>OPPORTUNITY.PRIVATE</field>
-            <operation>equals</operation>
-            <value>1</value>
-        </filters>
-        <label>Private</label>
+        <label>Ventas Abiertas</label>
+    </listViews>
+    <listViews>
+        <fullName>Todas_las_Ventas_Kanban</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <label>Todas las Ventas Kanban</label>
     </listViews>
     <listViews>
         <fullName>Won</fullName>
@@ -306,6 +604,100 @@
         </filters>
         <label>Won</label>
     </listViews>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypes>
+        <fullName>Opp_rec_type</fullName>
+        <active>true</active>
+        <businessProcess>Proceso de venta Comercial Fama</businessProcess>
+        <label>Opp rec type</label>
+        <picklistValues>
+            <picklist>Approval_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>DeliveryInstallationStatus__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yet to begin</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ForecastCategoryName</picklist>
+            <values>
+                <fullName>Best Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Omitted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipeline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LeadSource</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Existing Customer - Downgrade</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Existing Customer - Replacement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Existing Customer - Upgrade</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Customer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>OPPORTUNITY.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
@@ -323,7 +715,7 @@
         <searchResultsAdditionalFields>OPPORTUNITY.CLOSE_DATE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>Private</sharingModel>
     <webLinks>
         <fullName>DeliveryStatus</fullName>
         <availability>online</availability>
@@ -341,6 +733,18 @@
         <protected>false</protected>
         <showsLocation>true</showsLocation>
         <showsStatus>true</showsStatus>
-        <url>http://www.fedex.com/cgi-bin/tracking?tracknumbers={!Opportunity_Tracking_Number}&amp;action=track&amp;language=english&amp;cntry_code=us</url>
+        <url>https://t.17track.net/es#nums={!Opportunity.TrackingNumber__c}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>SBQQ__Include_Document</fullName>
+        <availability>online</availability>
+        <description>Allow users to attach the PDF to the opportunity</description>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Include Document</masterLabel>
+        <openType>sidebar</openType>
+        <page>SBQQ__NewOpportunityRelatedContent</page>
+        <protected>false</protected>
     </webLinks>
 </CustomObject>

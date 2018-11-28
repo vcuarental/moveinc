@@ -78,7 +78,11 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <type>Default</type>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Contacto_Record_Page2</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>ViewCustomerPortal</actionName>
@@ -98,6 +102,18 @@
     <fields>
         <fullName>AccountId</fullName>
         <trackFeedHistory>true</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Active_Lookup__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Active Lookup</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Active contacts</relationshipLabel>
+        <relationshipName>Contacts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <type>Lookup</type>
     </fields>
     <fields>
@@ -147,6 +163,18 @@
     <fields>
         <fullName>HomePhone</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Inactive_Lookup__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Inactive Lookup</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Contacts (Inactive Lookup)</relationshipLabel>
+        <relationshipName>Inactive_Contacts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Jigsaw</fullName>
@@ -200,6 +228,17 @@
                 </value>
             </valueSetDefinition>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>Location__c</fullName>
+        <deprecated>false</deprecated>
+        <displayLocationInDecimal>true</displayLocationInDecimal>
+        <externalId>false</externalId>
+        <label>Location</label>
+        <required>false</required>
+        <scale>7</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Location</type>
     </fields>
     <fields>
         <fullName>MailingAddress</fullName>

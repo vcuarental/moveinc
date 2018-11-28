@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- Comercial Fama Soporte --></label>
+        <name>Custom_Console</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- DreamInvest --></label>
+        <name>DreamInvest</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Dreamhouse Classic App --></label>
+        <name>Dreamhouse_Classic_App</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- In Development --></label>
+        <name>In_Development</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Comercial Fama --></label>
+        <name>Supeco</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Warehouse --></label>
+        <name>Warehouse</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Warehouse Lightning --></label>
+        <name>Warehouse_Lightning</name>
+    </customApplications>
+    <customLabels>
+        <label><!-- Copy Quota --></label>
+        <name>EditQuotas__QE_Copy_Quota</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Fetch quotas --></label>
+        <name>EditQuotas__QE_Fetch_Quotas</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Forecasting not available. --></label>
+        <name>EditQuotas__QE_Forecasting_Disabled</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- In the past --></label>
+        <name>EditQuotas__QE_In_the_past</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Other months blank --></label>
+        <name>EditQuotas__QE_Other_months_blank</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for period range --></label>
+        <name>EditQuotas__QE_PeriodDateRange</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for header options --></label>
+        <name>EditQuotas__QE_PeriodOptions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Products Not Categorized --></label>
+        <name>EditQuotas__QE_Products_Not_Categorized</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quantity --></label>
+        <name>EditQuotas__QE_Quantity</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quarterly StartMonthOnly --></label>
+        <name>EditQuotas__QE_Quarterly_StartMonthOnly</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quarterly explanation --></label>
+        <name>EditQuotas__QE_Quarterly_explanation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quota CannotView --></label>
+        <name>EditQuotas__QE_Quota_CannotView</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quota EditAll --></label>
+        <name>EditQuotas__QE_Quota_EditAll</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quota EditReports --></label>
+        <name>EditQuotas__QE_Quota_EditReports</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- QE_Quota_NoWritePerm --></label>
+        <name>EditQuotas__QE_Quota_NoWritePerm</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quota ViewAll --></label>
+        <name>EditQuotas__QE_Quota_ViewAll</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quota ViewReports --></label>
+        <name>EditQuotas__QE_Quota_ViewReports</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quotas For Period --></label>
+        <name>EditQuotas__QE_Quotas_For_Period</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Revenue --></label>
+        <name>EditQuotas__QE_Revenue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- QE_Roles --></label>
+        <name>EditQuotas__QE_Roles</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Starting Month --></label>
+        <name>EditQuotas__QE_Starting_Month</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Status Refreshing --></label>
+        <name>EditQuotas__QE_Status_Refreshing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- App subtitle in header --></label>
+        <name>EditQuotas__QE_SubTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- App title in header --></label>
+        <name>EditQuotas__QE_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- QE_Value_Not_set --></label>
+        <name>EditQuotas__QE_Value_Not_set</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Actions Label --></label>
+        <name>SBQQ__lbl_actions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Label --></label>
+        <name>SBQQ__lbl_add</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Group Label --></label>
+        <name>SBQQ__lbl_add_group</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Products Label --></label>
+        <name>SBQQ__lbl_add_products</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Subscriptions Label --></label>
+        <name>SBQQ__lbl_add_subscriptions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Additional Documents Label --></label>
+        <name>SBQQ__lbl_additional_docs</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Additional Settings --></label>
+        <name>SBQQ__lbl_additional_settings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- All Label --></label>
+        <name>SBQQ__lbl_all</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Amendment Opportunity Name --></label>
+        <name>SBQQ__lbl_amendment_opportunity_name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Apply --></label>
+        <name>SBQQ__lbl_apply</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Asset Selection Label --></label>
+        <name>SBQQ__lbl_asset_selection</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Attachment Target --></label>
+        <name>SBQQ__lbl_attachment_target</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Available Content Label --></label>
+        <name>SBQQ__lbl_available_content</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Browse import File --></label>
+        <name>SBQQ__lbl_browse_import_file</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Calculate Label --></label>
+        <name>SBQQ__lbl_calculate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cancel Label --></label>
+        <name>SBQQ__lbl_cancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Clear panel fields --></label>
+        <name>SBQQ__lbl_clear_fields</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Click to follow the product --></label>
+        <name>SBQQ__lbl_click_follow_product</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Click to unfollow the product --></label>
+        <name>SBQQ__lbl_click_unfollow_product</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Clone Label --></label>
+        <name>SBQQ__lbl_clone</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Close Label --></label>
+        <name>SBQQ__lbl_close</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Segmented Products Collapse All --></label>
+        <name>SBQQ__lbl_collapse_all</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Configure Label --></label>
+        <name>SBQQ__lbl_configure</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Configure Products Label --></label>
+        <name>SBQQ__lbl_configure_products</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - -  Create New - -  --></label>
+        <name>SBQQ__lbl_create_new_name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Custom Label --></label>
+        <name>SBQQ__lbl_custom</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label: Default Group Name --></label>
+        <name>SBQQ__lbl_default_group_name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Del Label --></label>
+        <name>SBQQ__lbl_del</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete Label --></label>
+        <name>SBQQ__lbl_delete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete Lines Labels --></label>
+        <name>SBQQ__lbl_delete_lines</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description Field --></label>
+        <name>SBQQ__lbl_description_field</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Document Folder --></label>
+        <name>SBQQ__lbl_document_folder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Document Options Label --></label>
+        <name>SBQQ__lbl_document_options</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Document Settings --></label>
+        <name>SBQQ__lbl_document_settings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit Label --></label>
+        <name>SBQQ__lbl_edit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Me Label --></label>
+        <name>SBQQ__lbl_email_me</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Segmented Products Expand All --></label>
+        <name>SBQQ__lbl_expand_all</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Filter --></label>
+        <name>SBQQ__lbl_filter</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Find Assets Label --></label>
+        <name>SBQQ__lbl_find_assets</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Find Products Label --></label>
+        <name>SBQQ__lbl_find_products</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Find Subscriptions Label --></label>
+        <name>SBQQ__lbl_find_subscriptions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Generate Document Label --></label>
+        <name>SBQQ__lbl_generate_document</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Group Settings --></label>
+        <name>SBQQ__lbl_group_settings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Guided Selling Label --></label>
+        <name>SBQQ__lbl_guided_selling</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Import --></label>
+        <name>SBQQ__lbl_import</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Included Content Label --></label>
+        <name>SBQQ__lbl_included_content</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Line Editor Settings --></label>
+        <name>SBQQ__lbl_line_editor_settings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Modified Label --></label>
+        <name>SBQQ__lbl_modified</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Multi Segment Products --></label>
+        <name>SBQQ__lbl_multi_segment_products</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Name Field --></label>
+        <name>SBQQ__lbl_name_field</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- New Group Name --></label>
+        <name>SBQQ__lbl_new_group_name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Next Label --></label>
+        <name>SBQQ__lbl_next</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- None Label --></label>
+        <name>SBQQ__lbl_none</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Object --></label>
+        <name>SBQQ__lbl_object</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Opportunity Additional Document Upload --></label>
+        <name>SBQQ__lbl_opportunity_additional_document_upload</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Related Content Oppty Prefix --></label>
+        <name>SBQQ__lbl_oppty_prefix</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Other Label --></label>
+        <name>SBQQ__lbl_other</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Other Options Label --></label>
+        <name>SBQQ__lbl_other_options</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- First Page Label --></label>
+        <name>SBQQ__lbl_page_first</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Last Page Label --></label>
+        <name>SBQQ__lbl_page_last</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Next Page Label --></label>
+        <name>SBQQ__lbl_page_next</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Previous Page Label --></label>
+        <name>SBQQ__lbl_page_prev</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Percent of Total Label --></label>
+        <name>SBQQ__lbl_percent_of_total</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Plugins --></label>
+        <name>SBQQ__lbl_plugins</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Post to Feed --></label>
+        <name>SBQQ__lbl_post_to_feed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Preview Label --></label>
+        <name>SBQQ__lbl_preview</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Preview Document Label --></label>
+        <name>SBQQ__lbl_preview_document</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Previous Label --></label>
+        <name>SBQQ__lbl_previous</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Price Included Label --></label>
+        <name>SBQQ__lbl_price_included</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pricing and Calculation Settings --></label>
+        <name>SBQQ__lbl_pricing_calc_settings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Related Content Product Prefix --></label>
+        <name>SBQQ__lbl_product_prefix</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product Selection Label --></label>
+        <name>SBQQ__lbl_product_selection</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Products found in search and suggest --></label>
+        <name>SBQQ__lbl_products_found</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quote Fields Section Title --></label>
+        <name>SBQQ__lbl_quote_fields_section_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quote Line Group --></label>
+        <name>SBQQ__lbl_quote_line_group_to_import</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Related Content Quote Prefix --></label>
+        <name>SBQQ__lbl_quote_prefix</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quote Preview Label --></label>
+        <name>SBQQ__lbl_quote_preview</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Document Upload --></label>
+        <name>SBQQ__lbl_quote_related_content_upload</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Additional Document Label --></label>
+        <name>SBQQ__lbl_related_content</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Renew Subscriptions Label --></label>
+        <name>SBQQ__lbl_renew_subscriptions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Request Authorization Label --></label>
+        <name>SBQQ__lbl_request_authorization</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Reset Discounts Label --></label>
+        <name>SBQQ__lbl_reset_discounts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Save Label --></label>
+        <name>SBQQ__lbl_save</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Save &amp; Email Label --></label>
+        <name>SBQQ__lbl_save_and_email</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Search Label --></label>
+        <name>SBQQ__lbl_search</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Search Filters Label --></label>
+        <name>SBQQ__lbl_search_filters</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add to Quote to see price --></label>
+        <name>SBQQ__lbl_see_price_in_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select Label --></label>
+        <name>SBQQ__lbl_select</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select &amp; Add More Label --></label>
+        <name>SBQQ__lbl_select_add_more</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select Upgrades Label --></label>
+        <name>SBQQ__lbl_select_upgrades</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Standard Label --></label>
+        <name>SBQQ__lbl_standard</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Standard Products --></label>
+        <name>SBQQ__lbl_standard_products</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Subscription and Renewal Settings --></label>
+        <name>SBQQ__lbl_sub_renewal_settings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Subscription Selection Label --></label>
+        <name>SBQQ__lbl_subscription_selection</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Subtotal Label --></label>
+        <name>SBQQ__lbl_subtotal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Suggest label --></label>
+        <name>SBQQ__lbl_suggest</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Total Label --></label>
+        <name>SBQQ__lbl_total</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Upgrade Assets Label --></label>
+        <name>SBQQ__lbl_upgrade_assets</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Group Tip --></label>
+        <name>SBQQ__msg_add_group_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Min and Max Options on Configure --></label>
+        <name>SBQQ__msg_add_min_and_max_options</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Min Options on Configure --></label>
+        <name>SBQQ__msg_add_min_options</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Products to Group Tip --></label>
+        <name>SBQQ__msg_add_products_group</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Products to Quote Tip --></label>
+        <name>SBQQ__msg_add_products_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CSV: Bundle cannot be imported. --></label>
+        <name>SBQQ__msg_bundle_cannot_be_imported</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Calculate Quote Tip --></label>
+        <name>SBQQ__msg_calculate_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cancel Configuration Confirmation --></label>
+        <name>SBQQ__msg_cancel_configuration_confirmation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cancel Quote Tip --></label>
+        <name>SBQQ__msg_cancel_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Need subscription term length --></label>
+        <name>SBQQ__msg_cannot_calculate_subscription_length</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Choose Min and Max Options on Configure --></label>
+        <name>SBQQ__msg_choose_min_and_max_options</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Choose Min Options on Configure --></label>
+        <name>SBQQ__msg_choose_min_options</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Output Format Message --></label>
+        <name>SBQQ__msg_choose_output_format</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Choose Template Prompt --></label>
+        <name>SBQQ__msg_choose_template</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Clone Group Tip --></label>
+        <name>SBQQ__msg_clone_group</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Multiple Quantity Configuration Warning --></label>
+        <name>SBQQ__msg_configure_multiple_warning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Configure Product Message --></label>
+        <name>SBQQ__msg_configure_product</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Group Delete Warning --></label>
+        <name>SBQQ__msg_confirm_group_delete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Currency Change On Quote With Line Items --></label>
+        <name>SBQQ__msg_currency_change_quote_with_line_items</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete Lines Message --></label>
+        <name>SBQQ__msg_delete_lines</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CSV format: Selected column format difference --></label>
+        <name>SBQQ__msg_different_column_def</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Document Name is required --></label>
+        <name>SBQQ__msg_document_name_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Empty Group Message --></label>
+        <name>SBQQ__msg_empty_group</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Empty Grouped Quote Message --></label>
+        <name>SBQQ__msg_empty_grouped_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Empty MS Table Message --></label>
+        <name>SBQQ__msg_empty_ms_table</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Empty Quote Message --></label>
+        <name>SBQQ__msg_empty_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Empty Standard Table Message --></label>
+        <name>SBQQ__msg_empty_standard_table</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Message --></label>
+        <name>SBQQ__msg_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Invalid Data Message --></label>
+        <name>SBQQ__msg_error_invalid_data</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error on upload attachment --></label>
+        <name>SBQQ__msg_error_on_upload_attachment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error on upload non-pdf attachment --></label>
+        <name>SBQQ__msg_error_on_upload_attachment_not_pdf</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Document Name Prompt --></label>
+        <name>SBQQ__msg_generated_document_name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Group Description Message --></label>
+        <name>SBQQ__msg_group_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- You must enter a group name --></label>
+        <name>SBQQ__msg_group_name_missing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- You must enter group name --></label>
+        <name>SBQQ__msg_group_name_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Choose CSV File Format Label --></label>
+        <name>SBQQ__msg_import_format_select</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help Message on Import Lines Group --></label>
+        <name>SBQQ__msg_import_lines_group_help</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Import New Group Name Required --></label>
+        <name>SBQQ__msg_import_new_group_name_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Required CSV Column Headers Tip --></label>
+        <name>SBQQ__msg_import_required_csv_column_tip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Incorrect Number Of Options --></label>
+        <name>SBQQ__msg_incorrect_option_count</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid attachment ID --></label>
+        <name>SBQQ__msg_invalid_attachment_id_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid Configuration Selections --></label>
+        <name>SBQQ__msg_invalid_configuration_selections</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CSV format: File should be saved as Windows comma separated. --></label>
+        <name>SBQQ__msg_invalid_csv_format</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid doc, workspace document ID --></label>
+        <name>SBQQ__msg_invalid_document_attachment_or_workspace_document_id_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid document id --></label>
+        <name>SBQQ__msg_invalid_document_id_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CSV format: Invalid number of column --></label>
+        <name>SBQQ__msg_invalid_num_of_column</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid Pricebook Entry --></label>
+        <name>SBQQ__msg_invalid_pricebook_entry</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid Workspace Document ID --></label>
+        <name>SBQQ__msg_invalid_workspace_doc_id_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Mass Document Authorization Instructions --></label>
+        <name>SBQQ__msg_mass_document_authorization_instructions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Mass Document Sender All Sent --></label>
+        <name>SBQQ__msg_mass_document_sender_all_sent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Mass Document Sender Errors Subject --></label>
+        <name>SBQQ__msg_mass_document_sender_errors_subject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Mass Document Sender Some Sent --></label>
+        <name>SBQQ__msg_mass_document_sender_some_sent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Mass Document Sender Success Subject --></label>
+        <name>SBQQ__msg_mass_document_sender_success_subject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Maximum Option Quantity Exceeded --></label>
+        <name>SBQQ__msg_max_option_quantity_exceeded</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CSV: Multi-dimensional Product cannot be imported. --></label>
+        <name>SBQQ__msg_mdq_cannot_be_imported</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Minimum Option Quantity Unmet --></label>
+        <name>SBQQ__msg_min_option_quantity_unmet</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Missing Import Format --></label>
+        <name>SBQQ__msg_missing_import_format</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Missing Opportunity Line Item --></label>
+        <name>SBQQ__msg_missing_opportunity_line_item</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CSV: Unable to find a product --></label>
+        <name>SBQQ__msg_missing_unique_key</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CSV: No active import format available --></label>
+        <name>SBQQ__msg_no_active_import_format</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No Products Selected --></label>
+        <name>SBQQ__msg_no_products_selected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Import file is not CSV format --></label>
+        <name>SBQQ__msg_not_csv_format</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Not a PDF --></label>
+        <name>SBQQ__msg_not_pdf_id_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Opportunity is required --></label>
+        <name>SBQQ__msg_opportunity_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Opportunity with primary quotes in different currency. --></label>
+        <name>SBQQ__msg_opportunity_with_wrong_quote_currencies</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Option Requires Configuration Message --></label>
+        <name>SBQQ__msg_option_requires_configuration</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product Option Used On Quotes --></label>
+        <name>SBQQ__msg_option_used_on_quotes</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Options Missing Configuration Message --></label>
+        <name>SBQQ__msg_options_missing_config</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Price Refresh All Updated Message --></label>
+        <name>SBQQ__msg_price_refresh_all_updated</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Price Refresh Errors Subject --></label>
+        <name>SBQQ__msg_price_refresh_errors_subject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Price Refresh Invalid Entries --></label>
+        <name>SBQQ__msg_price_refresh_invalid_entries</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Price Refresh Some Updated Message --></label>
+        <name>SBQQ__msg_price_refresh_some_updated</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Price Refresh Success Subject --></label>
+        <name>SBQQ__msg_price_refresh_success_subject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Wrong currency on primary Quote --></label>
+        <name>SBQQ__msg_primary_quote_wrong_currency</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product is not available in this pricebook. --></label>
+        <name>SBQQ__msg_product_not_available_in_pricebook</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product Option Dependent --></label>
+        <name>SBQQ__msg_product_option_dependent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product Option Excluded --></label>
+        <name>SBQQ__msg_product_option_excluded</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Prodcut is required. --></label>
+        <name>SBQQ__msg_product_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Prorate Multiplier is Calculated With Divided By 0 --></label>
+        <name>SBQQ__msg_prorate_multiplier_divide_by_0_when_unit_day</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Prorate Multiplier is Calculated With Divided By 0 --></label>
+        <name>SBQQ__msg_prorate_multiplier_divide_by_0_when_unit_month</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Decrease asset quantity is not allowed in renewal and amendment quotes --></label>
+        <name>SBQQ__msg_qty_only_can_increase</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Require line quantity (grouped) --></label>
+        <name>SBQQ__msg_quantity_required_grouped</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Missing Quote Line Import Format Option --></label>
+        <name>SBQQ__msg_quote_line_import_format_option_missing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quote Supplemental Document Display Order Message --></label>
+        <name>SBQQ__msg_quote_related_content_display_order</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quote Additional Document Upload --></label>
+        <name>SBQQ__msg_quote_related_content_upload</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quote is required. --></label>
+        <name>SBQQ__msg_quote_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Remove Group Tip --></label>
+        <name>SBQQ__msg_remove_group</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Remove Line Message --></label>
+        <name>SBQQ__msg_remove_line</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Required By Message --></label>
+        <name>SBQQ__msg_required_by</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Missing Required Quote Line Import Format Selection --></label>
+        <name>SBQQ__msg_required_quote_line_import_format_missing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Review Errors in Config Form --></label>
+        <name>SBQQ__msg_review_errors_in_config_form</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Save Quote Tip --></label>
+        <name>SBQQ__msg_save_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Script Statement Limit Warning --></label>
+        <name>SBQQ__msg_script_statement_limit_warning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select Supplemental Document Prompt --></label>
+        <name>SBQQ__msg_select_related_content</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Subscription Scope Help --></label>
+        <name>SBQQ__msg_subscription_scope</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Template, product, quote, or Opportunity Id is required --></label>
+        <name>SBQQ__msg_template_quote_opportunity_or_product_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Template or product ID is required --></label>
+        <name>SBQQ__msg_template_quote_or_product_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Template is required. --></label>
+        <name>SBQQ__msg_template_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Too Many Options Selected --></label>
+        <name>SBQQ__msg_too_many_options_selected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Too Many Products Message --></label>
+        <name>SBQQ__msg_too_many_products</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Value Required Message --></label>
+        <name>SBQQ__msg_value_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- When a web quote does not have a pricebookid or a opportunity --></label>
+        <name>SBQQ__msg_web_quote_missing_pricebookid</name>
+    </customLabels>
+    <customTabs>
+        <label><!-- Chat --></label>
+        <name>Chat</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Fund Explorer --></label>
+        <name>Fund_Explorer</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- HOME --></label>
+        <name>HOME</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Hello World --></label>
+        <name>HelloWorld</name>
+    </customTabs>
+    <quickActions>
+        <label><!-- New Contact --></label>
+        <name>ContactooorrrGlobal</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Guest Community Case --></label>
+        <name>GuestCommunityCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Community Case --></label>
+        <name>NewCommunityCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Snapins_Case_PrechatQuickAction_08h0Y000000XZYO --></label>
+        <name>Snapins_Case_PrechatQuickAction_08h0Y000000XZYO</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Snapins_Contact_PrechatQuickAction_08h0Y000000XZYO --></label>
+        <name>Snapins_Contact_PrechatQuickAction_08h0Y000000XZYO</name>
+    </quickActions>
+</Translations>

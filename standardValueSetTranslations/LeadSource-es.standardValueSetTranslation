@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Other</masterLabel>
+        <translation>Otro</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Petición telefónica</masterLabel>
+        <translation><!-- Petición telefónica --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Web</masterLabel>
+        <translation><!-- Web --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

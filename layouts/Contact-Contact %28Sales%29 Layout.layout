@@ -44,6 +44,14 @@
                 <behavior>Edit</behavior>
                 <field>Birthdate</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Active_Lookup__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Inactive_Lookup__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -314,6 +322,11 @@
         </quickActionListItems>
     </quickActionList>
     <relatedContent>
+        <relatedContentItems>
+            <layoutItem>
+                <component>wits:newsPanel</component>
+            </layoutItem>
+        </relatedContentItems>
         <relatedContentItems>
             <layoutItem>
                 <behavior>Readonly</behavior>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Custom action definition.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>SBQQ__Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Flag that determines whether this action is used.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check to make this action available for use.</inlineHelpText>
+        <label>Active</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__Default__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Sets action to be the default overriding action.</description>
+        <externalId>false</externalId>
+        <label>Default</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__DisplayOrder__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The order in which this action display in the UI.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The order in which this action display in the UI.</inlineHelpText>
+        <label>Display Order</label>
+        <precision>3</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SBQQ__Label__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Label displayed for this action in the UI.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Label displayed for this action in the UI.</inlineHelpText>
+        <label>Label</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Add Products</fullName>
+                    <default>false</default>
+                    <label>Add Products</label>
+                </value>
+                <value>
+                    <fullName>Renew Subscriptions</fullName>
+                    <default>false</default>
+                    <label>Renew Subscriptions</label>
+                </value>
+                <value>
+                    <fullName>Upgrade Assets</fullName>
+                    <default>false</default>
+                    <label>Upgrade Assets</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SBQQ__TargetObject__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Object targeted by this action.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Object targeted by this action.</inlineHelpText>
+        <label>Target Object</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Product</fullName>
+                    <default>true</default>
+                    <label>Product</label>
+                </value>
+                <value>
+                    <fullName>Asset</fullName>
+                    <default>false</default>
+                    <label>Asset</label>
+                </value>
+                <value>
+                    <fullName>Subscription</fullName>
+                    <default>false</default>
+                    <label>Subscription</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Custom Action</label>
+    <listViews>
+        <fullName>Panel1_CustomAction</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Panel1</label>
+        <queue>Panel1</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>SBQQ__All</fullName>
+        <columns>SBQQ__Active__c</columns>
+        <columns>NAME</columns>
+        <columns>SBQQ__DisplayOrder__c</columns>
+        <columns>SBQQ__Label__c</columns>
+        <columns>SBQQ__TargetObject__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <label>Action Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Custom Actions</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

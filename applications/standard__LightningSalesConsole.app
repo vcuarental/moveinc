@@ -13,14 +13,47 @@
     <tabs>standard-Campaign</tabs>
     <tabs>standard-Task</tabs>
     <tabs>standard-Event</tabs>
+    <tabs>standard-ContentNote</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
     <tabs>standard-Feed</tabs>
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-File</tabs>
+    <tabs>Objeto_Prueba__c</tabs>
+    <tabs>Prueba_hijo__c</tabs>
+    <tabs>Taskeando__c</tabs>
+    <tabs>HelloWorld</tabs>
+    <tabs>Camping_Item__c</tabs>
+    <tabs>Expense__c</tabs>
+    <tabs>Chat</tabs>
+    <tabs>Rentabilidad__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningSalesConsole_UtilityBar</utilityBar>
     <workspaceConfig>
+        <mappings>
+            <tab>Camping_Item__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Chat</tab>
+        </mappings>
+        <mappings>
+            <tab>Expense__c</tab>
+        </mappings>
+        <mappings>
+            <tab>HelloWorld</tab>
+        </mappings>
+        <mappings>
+            <tab>Objeto_Prueba__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Prueba_hijo__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Rentabilidad__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Taskeando__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>
@@ -32,6 +65,9 @@
         </mappings>
         <mappings>
             <tab>standard-Contact</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-ContentNote</tab>
         </mappings>
         <mappings>
             <tab>standard-Dashboard</tab>
