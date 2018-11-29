@@ -4,6 +4,6 @@
         <application>DreamInvest</application>
         <visible>true</visible>
     </applicationVisibilities>
-    <hasActivationRequired>false</hasActivationRequired>
+    <hasActivationRequired>true</hasActivationRequired>
     <label>DreamInvest</label>
 </PermissionSet>
