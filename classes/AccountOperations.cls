@@ -21,9 +21,9 @@ public class AccountOperations {
         return a;
         }
     public static Account setDefaultShippingAddress(Account a){//Dev3
-        a.shippingstreet = 'Paseo de la Castellana, 77';
-        a.shippingstate = 'Madrid';
-        a.shippingpostalcode ='28046';
+        a.shippingstreet = 'Gran via, 1';
+        a.shippingstate = 'Majadahonda';
+        a.shippingpostalcode ='28023';
         return a;
         }
     public static Account setDefaultNumber(Account a){//Dev1
