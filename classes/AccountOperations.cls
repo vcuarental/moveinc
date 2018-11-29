@@ -21,14 +21,17 @@ public class AccountOperations {
         return a;
         }
     public static Account setDefaultShippingAddress(Account a){//Dev3
-        a.shippingstreet = 'Paseo de la Castellana, 77';
+        a.shippingstreet = 'Plaza del Callao';
         a.shippingstate = 'Madrid';
-        a.shippingpostalcode ='28046';
+        a.shippingpostalcode ='28013';
         return a;
         }
     public static Account setDefaultNumber(Account a){//Dev1
         a.AccountNumber='CC1000';
         return a;
         }
-
+    public static Account setDefaultIndustry( account a){
+        a.Industry = 'Apparel';
+        return a;
+    }
 }
