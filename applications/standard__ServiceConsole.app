@@ -158,6 +158,15 @@
             <location>full</location>
         </listPlacement>
         <listRefreshMethod>none</listRefreshMethod>
+        <liveAgentConfig>
+            <enableLiveChat>true</enableLiveChat>
+            <openNewAccountSubtab>false</openNewAccountSubtab>
+            <openNewCaseSubtab>true</openNewCaseSubtab>
+            <openNewContactSubtab>false</openNewContactSubtab>
+            <openNewLeadSubtab>false</openNewLeadSubtab>
+            <openNewVFPageSubtab>false</openNewVFPageSubtab>
+            <showKnowledgeArticles>false</showKnowledgeArticles>
+        </liveAgentConfig>
     </consoleConfig>
     <defaultLandingTab>standard-home</defaultLandingTab>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
@@ -188,6 +197,10 @@
     <tabs>Expense__c</tabs>
     <tabs>Chat</tabs>
     <tabs>Rentabilidad__c</tabs>
+    <tabs>standard-LiveAgentSupervisor</tabs>
+    <tabs>standard-LiveChatTranscript</tabs>
+    <tabs>standard-LiveChatVisitor</tabs>
+    <tabs>standard-LiveAgentSession</tabs>
     <workspaceConfig>
         <mappings>
             <tab>Camping_Item__c</tab>
@@ -229,6 +242,18 @@
         </mappings>
         <mappings>
             <tab>standard-Lead</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-LiveAgentSession</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-LiveAgentSupervisor</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-LiveChatTranscript</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-LiveChatVisitor</tab>
         </mappings>
         <mappings>
             <fieldName>AccountId</fieldName>
