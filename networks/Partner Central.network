@@ -88,10 +88,34 @@
         <selfRegProfilePageOverrideSetting>Designer</selfRegProfilePageOverrideSetting>
     </networkPageOverrides>
     <picassoSite>Partner_Central1</picassoSite>
+    <recommendationAudience>
+        <recommendationAudienceDetails>
+            <audienceCriteriaType>MaxDaysInCommunity</audienceCriteriaType>
+            <audienceCriteriaValue>30.0</audienceCriteriaValue>
+            <setupName>Audience_Example</setupName>
+        </recommendationAudienceDetails>
+    </recommendationAudience>
+    <recommendationDefinition>
+        <recommendationDefinitionDetails>
+            <actionUrl>https://vicubo-dev-ed--copado.eu18.visual.force.com/apex/viewOrg?id=a1l1n0000008DSS&amp;sfdc.override=1</actionUrl>
+            <description>Go forward and take a look over the community</description>
+            <linkText>Go ahead</linkText>
+            <scheduledRecommendations>
+                <scheduledRecommendationDetails>
+                    <channel>DefaultChannel</channel>
+                    <enabled>true</enabled>
+                    <rank>1</rank>
+                    <recommendationAudience>000000000000000</recommendationAudience>
+                </scheduledRecommendationDetails>
+            </scheduledRecommendations>
+            <setupName>Recommendation example</setupName>
+            <title>Recommendation</title>
+        </recommendationDefinitionDetails>
+    </recommendationDefinition>
     <selfRegistration>false</selfRegistration>
     <sendWelcomeEmail>true</sendWelcomeEmail>
     <site>Partner_Central</site>
-    <status>UnderConstruction</status>
+    <status>Live</status>
     <tabs>
         <defaultTab>home</defaultTab>
         <standardTab>Chatter</standardTab>
