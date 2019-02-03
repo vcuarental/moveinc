@@ -1,1 +1,1 @@
-(hidden)
+<aura:event type="APPLICATION" description="Event template" />

@@ -144,6 +144,7 @@
     </fields>
     <fields>
         <fullName>WorkTypeId</fullName>
+        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <listViews>

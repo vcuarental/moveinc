@@ -124,6 +124,14 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>SvcApptGenerationMethod</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>WorkOrderGenerationMethod</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>WorkOrderGenerationStatus</fullName>
         <trackHistory>false</trackHistory>
     </fields>
