@@ -47,7 +47,6 @@
     <description>Quote originated by external parties such as customers or partners from a Portal or Force.com Site. This object offers a subset of functionality of the full Quote object but does not require an Opportunity.</description>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
-    <enableChangeDataCapture>false</enableChangeDataCapture>
     <enableEnhancedLookup>false</enableEnhancedLookup>
     <enableFeeds>false</enableFeeds>
     <enableHistory>true</enableHistory>
