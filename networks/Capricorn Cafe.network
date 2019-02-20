@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Network xmlns="http://soap.sforce.com/2006/04/metadata">
-    <allowInternalUserLogin>false</allowInternalUserLogin>
+    <allowInternalUserLogin>true</allowInternalUserLogin>
     <allowMembersToFlag>false</allowMembersToFlag>
     <changePasswordTemplate>unfiled$public/CommunityChangePasswordEmailTemplate</changePasswordTemplate>
     <communityRoles/>
@@ -41,7 +41,123 @@
         </navigationMenuItem>
     </navigationLinkSet>
     <networkMemberGroups>
+        <permissionSet>Quip</permissionSet>
+        <permissionSet>Knowledge_LSF_Permission_Set</permissionSet>
+        <permissionSet>Omni_Setup_Flow</permissionSet>
+        <permissionSet>Live_Agent_Setup_Flow</permissionSet>
+        <permissionSet>EditQuotas__Edit_Quotas_access</permissionSet>
+        <permissionSet>SBQQ__SteelBrickCPQAdmin</permissionSet>
+        <permissionSet>SBQQ__SteelBrickCPQUser</permissionSet>
+        <permissionSet>Lightning_Experience_User</permissionSet>
+        <permissionSet>Dreamproject</permissionSet>
+        <permissionSet>DreamInvest</permissionSet>
+        <permissionSet>dreamhouse</permissionSet>
+        <permissionSet>communities_permissioner</permissionSet>
+        <permissionSet>Super_user_Community_permission_set</permissionSet>
+        <permissionSet>ChangeColoursDashboards</permissionSet>
+        <permissionSet>copado__Branch_Management_Permissions_Manage</permissionSet>
+        <permissionSet>copado__Branch_Management_Permissions_View</permissionSet>
+        <permissionSet>copado__Commit_Changes</permissionSet>
+        <permissionSet>copado__Compliance_Hub</permissionSet>
+        <permissionSet>copado__Continuous_Integration_Manage</permissionSet>
+        <permissionSet>copado__Continuous_Integration_View</permissionSet>
+        <permissionSet>copado__Copado_User</permissionSet>
+        <permissionSet>copado__Create_Environmental_Variables</permissionSet>
+        <permissionSet>copado__Deploy_Commit</permissionSet>
+        <permissionSet>copado__Deployment_Flows_Manage</permissionSet>
+        <permissionSet>copado__Deployment_Flows_View</permissionSet>
+        <permissionSet>copado__Deployments_Manage</permissionSet>
+        <permissionSet>copado__Deployments_View</permissionSet>
+        <permissionSet>copado__Encrypted_fields</permissionSet>
+        <permissionSet>copado__Epics_Manage</permissionSet>
+        <permissionSet>copado__Epics_View</permissionSet>
+        <permissionSet>copado__Git_Repositories_Manage</permissionSet>
+        <permissionSet>copado__Git_Repositories_View</permissionSet>
+        <permissionSet>copado__Git_Snapshot_Manage</permissionSet>
+        <permissionSet>copado__Org_Credentials_Edit</permissionSet>
+        <permissionSet>copado__Org_Credentials_Modify_All</permissionSet>
+        <permissionSet>copado__Org_Credentials_Read_Only</permissionSet>
+        <permissionSet>copado__Org_Credentials_View_All</permissionSet>
+        <permissionSet>copado__Org_Differences_Edit</permissionSet>
+        <permissionSet>copado__Org_Differences_Modify_All</permissionSet>
+        <permissionSet>copado__Org_Differences_Read_Only</permissionSet>
+        <permissionSet>copado__Org_Differences_View_All</permissionSet>
+        <permissionSet>copado__Persona_Permission_Manager</permissionSet>
+        <permissionSet>copado__Projects_Manage</permissionSet>
+        <permissionSet>copado__Projects_View</permissionSet>
+        <permissionSet>copado__Promotions_Manage</permissionSet>
+        <permissionSet>copado__Promotions_View</permissionSet>
+        <permissionSet>copado__Releases_Manage</permissionSet>
+        <permissionSet>copado__Releases_View</permissionSet>
+        <permissionSet>copado__Run_Apex_Test</permissionSet>
+        <permissionSet>copado__Selenium_Locators_Manage</permissionSet>
+        <permissionSet>copado__Selenium_Locators_View</permissionSet>
+        <permissionSet>copado__Selenium_Settings_Manage</permissionSet>
+        <permissionSet>copado__Selenium_Settings_View</permissionSet>
+        <permissionSet>copado__Selenium_Test_Cases_Manage</permissionSet>
+        <permissionSet>copado__Selenium_Test_Cases_View</permissionSet>
+        <permissionSet>copado__Selenium_Test_Groups_Manage</permissionSet>
+        <permissionSet>copado__Selenium_Test_Groups_View</permissionSet>
+        <permissionSet>copado__Selenium_Test_Runs_Manage</permissionSet>
+        <permissionSet>copado__Selenium_Test_Runs_View</permissionSet>
+        <permissionSet>copado__Selenium_Test_Suites_Manage</permissionSet>
+        <permissionSet>copado__Selenium_Test_Suites_View</permissionSet>
+        <permissionSet>copado__Snapshot_Differences_Edit</permissionSet>
+        <permissionSet>copado__Snapshot_Differences_Modify_All</permissionSet>
+        <permissionSet>copado__Snapshot_Differences_Read_Only</permissionSet>
+        <permissionSet>copado__Snapshot_Differences_View_All</permissionSet>
+        <permissionSet>copado__Sprints_Manage</permissionSet>
+        <permissionSet>copado__Sprints_View</permissionSet>
+        <permissionSet>copado__Static_Code_Analysis</permissionSet>
+        <permissionSet>copado__Test_Runs_Edit</permissionSet>
+        <permissionSet>copado__Test_Runs_Modify_All</permissionSet>
+        <permissionSet>copado__Test_Runs_Read_Only</permissionSet>
+        <permissionSet>copado__Test_Runs_View_All</permissionSet>
+        <permissionSet>copado__Test_Scripts_Edit</permissionSet>
+        <permissionSet>copado__Test_Scripts_Modify_All</permissionSet>
+        <permissionSet>copado__Test_Scripts_Read_Only</permissionSet>
+        <permissionSet>copado__Test_Scripts_View_All</permissionSet>
+        <permissionSet>copado__User_Stories_Edit</permissionSet>
+        <permissionSet>copado__User_Stories_Modify_All</permissionSet>
+        <permissionSet>copado__User_Stories_Read_Only</permissionSet>
+        <permissionSet>copado__User_Stories_View_All</permissionSet>
         <profile>admin</profile>
+        <profile>sales profile</profile>
+        <profile>system admin2</profile>
+        <profile>chatter free user</profile>
+        <profile>analytics cloud security user</profile>
+        <profile>standardaul</profile>
+        <profile>customer community login user</profile>
+        <profile>cross org data proxy user</profile>
+        <profile>platformportal</profile>
+        <profile>work.com only user</profile>
+        <profile>customer portal manager custom</profile>
+        <profile>identity user</profile>
+        <profile>customer community plus user</profile>
+        <profile>silver partner user</profile>
+        <profile>highvolumeportal</profile>
+        <profile>gold partner user</profile>
+        <profile>customer portal manager standard</profile>
+        <profile>force.com - app subscription user</profile>
+        <profile>customer community plus login user</profile>
+        <profile>partner app subscription user</profile>
+        <profile>external identity user</profile>
+        <profile>partner community user</profile>
+        <profile>partner community login user</profile>
+        <profile>customer community user</profile>
+        <profile>force.com - free user</profile>
+        <profile>chatter moderator user</profile>
+        <profile>high volume customer portal user</profile>
+        <profile>authenticated website</profile>
+        <profile>solutionmanager</profile>
+        <profile>readonly</profile>
+        <profile>custom: sales profile</profile>
+        <profile>custom: marketing profile</profile>
+        <profile>custom: support profile</profile>
+        <profile>marketingprofile</profile>
+        <profile>contractmanager</profile>
+        <profile>standard</profile>
+        <profile>partner comm user</profile>
     </networkMemberGroups>
     <networkPageOverrides>
         <changePasswordPageOverrideSetting>Standard</changePasswordPageOverrideSetting>
@@ -149,7 +265,8 @@
             <points>5</points>
         </pointsRule>
     </reputationPointsRules>
-    <selfRegistration>false</selfRegistration>
+    <selfRegProfile>customer community user</selfRegProfile>
+    <selfRegistration>true</selfRegistration>
     <sendWelcomeEmail>true</sendWelcomeEmail>
     <site>Capricorn_Cafe</site>
     <status>Live</status>
