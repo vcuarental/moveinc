@@ -52,6 +52,10 @@
         <name>start_date_campaign</name>
         <startsWith>Consonant</startsWith>
     </fields>
+    <fields>
+        <label><!-- Campaign Autonumber --></label>
+        <name>Campaign_Autonumber__c</name>
+    </fields>
     <startsWith>Vowel</startsWith>
     <webLinks>
         <label><!-- ViewCampaignInfluenceReport --></label>

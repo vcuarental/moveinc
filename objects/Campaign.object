@@ -68,6 +68,13 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Campaign_Autonumber__c</fullName>
+        <displayFormat>{000000}</displayFormat>
+        <externalId>true</externalId>
+        <label>Campaign Autonumber</label>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
     </fields>
     <fields>
