@@ -69,7 +69,7 @@
                 <column>STATUS</column>
                 <isUnlocked>true</isUnlocked>
                 <operator>equals</operator>
-                <value></value>
+                <value>New</value>
             </criteriaItems>
         </filter>
         <format>Summary</format>

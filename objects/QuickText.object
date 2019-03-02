@@ -53,6 +53,11 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>FolderId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Message</fullName>
         <trackHistory>false</trackHistory>
     </fields>
