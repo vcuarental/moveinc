@@ -35,5 +35,6 @@
     <tabs>Expense__c</tabs>
     <tabs>Chat</tabs>
     <tabs>Rentabilidad__c</tabs>
+    <tabs>App_Filtered_View</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

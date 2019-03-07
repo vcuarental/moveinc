@@ -12127,6 +12127,10 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>App_Filtered_View</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Camping_Item__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>

@@ -6025,6 +6025,10 @@
         <name>copado__inSuffPriv</name>
     </customLabels>
     <customTabs>
+        <label><!-- App Filtered View --></label>
+        <name>App_Filtered_View</name>
+    </customTabs>
+    <customTabs>
         <label><!-- Chat --></label>
         <name>Chat</name>
     </customTabs>
