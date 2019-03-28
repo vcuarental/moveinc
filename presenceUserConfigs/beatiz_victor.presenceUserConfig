@@ -2,7 +2,6 @@
 <PresenceUserConfig xmlns="http://soap.sforce.com/2006/04/metadata">
     <assignments>
         <users>
-            <user>rcaparros@vectoritcgroup.com</user>
             <user>vcb@copado.com</user>
         </users>
     </assignments>

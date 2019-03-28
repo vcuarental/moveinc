@@ -10,25 +10,11 @@
         <senderType>CurrentUser</senderType>
         <template>unfiled$public/info_supeco_com</template>
     </alerts>
-    <fieldUpdates>
-        <fullName>OwnerUpdate</fullName>
-        <field>OwnerId</field>
-        <lookupValue>rcaparros@vectoritcgroup.com</lookupValue>
-        <lookupValueType>User</lookupValueType>
-        <name>OwnerUpdate</name>
-        <notifyAssignee>true</notifyAssignee>
-        <operation>LookupValue</operation>
-        <protected>false</protected>
-    </fieldUpdates>
     <rules>
         <fullName>Seguimiento Cliente</fullName>
         <actions>
             <name>Alerta_de_email</name>
             <type>Alert</type>
-        </actions>
-        <actions>
-            <name>OwnerUpdate</name>
-            <type>FieldUpdate</type>
         </actions>
         <actions>
             <name>Seguimiento_de_Cliente</name>
