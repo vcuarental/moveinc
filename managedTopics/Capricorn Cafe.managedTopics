@@ -8,4 +8,36 @@
         <position>0</position>
         <topicDescription> </topicDescription>
     </managedTopic>
+    <managedTopic>
+        <fullName>Capricorn Cafe.Featured:Prueba</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Prueba</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Capricorn Cafe.Featured:Prueba No Content</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Prueba No Content</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Capricorn Cafe.Navigational:Prueba</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Prueba</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Capricorn Cafe.Navigational:Prueba 2</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Prueba 2</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
 </ManagedTopics>
