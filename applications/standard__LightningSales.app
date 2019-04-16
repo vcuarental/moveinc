@@ -7,6 +7,14 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Sales</label>
     <navType>Standard</navType>
+    <profileActionOverrides>
+        <actionName>Tab</actionName>
+        <content>Sales_Home</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Sales Profile</profile>
+    </profileActionOverrides>
     <tabs>standard-home</tabs>
     <tabs>HOME</tabs>
     <tabs>standard-Opportunity</tabs>

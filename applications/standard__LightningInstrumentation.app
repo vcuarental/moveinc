@@ -5,6 +5,14 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>LightningInstrumentation</label>
     <navType>Standard</navType>
+    <profileActionOverrides>
+        <actionName>Tab</actionName>
+        <content>Sales_Home</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Sales Profile</profile>
+    </profileActionOverrides>
     <tabs>standard-LightningInstrumentation</tabs>
     <tabs>Chat</tabs>
     <tabs>Rentabilidad__c</tabs>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QueueRoutingConfig xmlns="http://soap.sforce.com/2006/04/metadata">
     <capacityWeight>3.0</capacityWeight>
+    <isAttributeBased>false</isAttributeBased>
     <label>Credit Support Queue</label>
     <queueOverflowAssignee>Case_Support_Queue</queueOverflowAssignee>
     <routingModel>MOST_AVAILABLE</routingModel>

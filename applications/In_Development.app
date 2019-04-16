@@ -9,6 +9,14 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>In Development</label>
     <navType>Standard</navType>
+    <profileActionOverrides>
+        <actionName>Tab</actionName>
+        <content>Sales_Home</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Sales Profile</profile>
+    </profileActionOverrides>
     <setupExperience>service</setupExperience>
     <tabs>standard-AppLauncher</tabs>
     <tabs>standard-Account</tabs>
