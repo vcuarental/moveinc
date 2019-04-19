@@ -4,17 +4,36 @@
         <enableArticleCreation>false</enableArticleCreation>
     </answers>
     <cases>
-        <enableArticleCreation>false</enableArticleCreation>
+        <assignTo>vcb@copado.com</assignTo>
+        <defaultContributionArticleType>Knowledge</defaultContributionArticleType>
+        <editor>simple</editor>
+        <enableArticleCreation>true</enableArticleCreation>
         <enableArticlePublicSharingSites>false</enableArticlePublicSharingSites>
         <enableCaseDataCategoryMapping>true</enableCaseDataCategoryMapping>
         <useProfileForPDFCreation>false</useProfileForPDFCreation>
     </cases>
     <defaultLanguage>en_US</defaultLanguage>
-    <enableChatterQuestionKBDeflection>false</enableChatterQuestionKBDeflection>
+    <enableChatterQuestionKBDeflection>true</enableChatterQuestionKBDeflection>
     <enableCreateEditOnArticlesTab>true</enableCreateEditOnArticlesTab>
     <enableExternalMediaContent>true</enableExternalMediaContent>
     <enableKnowledge>true</enableKnowledge>
     <enableLightningKnowledge>true</enableLightningKnowledge>
+    <languages>
+        <language>
+            <active>true</active>
+            <defaultAssignee></defaultAssignee>
+            <defaultReviewer></defaultReviewer>
+            <name>en_US</name>
+        </language>
+        <language>
+            <active>true</active>
+            <defaultAssignee>vcb@copado.com</defaultAssignee>
+            <defaultAssigneeType>User</defaultAssigneeType>
+            <defaultReviewer>Panel1</defaultReviewer>
+            <defaultReviewerType>Queue</defaultReviewerType>
+            <name>es</name>
+        </language>
+    </languages>
     <showArticleSummariesCustomerPortal>true</showArticleSummariesCustomerPortal>
     <showArticleSummariesInternalApp>true</showArticleSummariesInternalApp>
     <showArticleSummariesPartnerPortal>true</showArticleSummariesPartnerPortal>

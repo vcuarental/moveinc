@@ -6,6 +6,12 @@
         <objectField>Account</objectField>
         <userField>Account</userField>
     </accessMappings>
+    <accessMappings>
+        <accessLevel>Edit</accessLevel>
+        <object>User</object>
+        <objectField>Account.Parent</objectField>
+        <userField>Contact.Account</userField>
+    </accessMappings>
     <name>sharing cases</name>
     <profiles>customer community user</profiles>
 </SharingSet>

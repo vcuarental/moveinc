@@ -3,6 +3,6 @@
     <enableChatterProfile>true</enableChatterProfile>
     <enableIdeaThemes>false</enableIdeaThemes>
     <enableIdeas>true</enableIdeas>
-    <enableIdeasReputation>false</enableIdeasReputation>
+    <enableIdeasReputation>true</enableIdeasReputation>
     <halfLife>2.0</halfLife>
 </IdeasSettings>

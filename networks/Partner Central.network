@@ -10,13 +10,13 @@
     <enableCustomVFErrorPageOverrides>false</enableCustomVFErrorPageOverrides>
     <enableDirectMessages>true</enableDirectMessages>
     <enableGuestChatter>false</enableGuestChatter>
-    <enableGuestFileAccess>false</enableGuestFileAccess>
+    <enableGuestFileAccess>true</enableGuestFileAccess>
     <enableInvitation>false</enableInvitation>
     <enableKnowledgeable>false</enableKnowledgeable>
     <enableMemberVisibility>true</enableMemberVisibility>
     <enableNicknameDisplay>false</enableNicknameDisplay>
     <enablePrivateMessages>false</enablePrivateMessages>
-    <enableReputation>false</enableReputation>
+    <enableReputation>true</enableReputation>
     <enableShowAllNetworkSettings>false</enableShowAllNetworkSettings>
     <enableSiteAsContainer>true</enableSiteAsContainer>
     <enableTalkingAboutStats>true</enableTalkingAboutStats>
@@ -80,6 +80,43 @@
     </navigationLinkSet>
     <networkMemberGroups>
         <profile>admin</profile>
+        <profile>sales profile</profile>
+        <profile>system admin2</profile>
+        <profile>standard</profile>
+        <profile>contractmanager</profile>
+        <profile>marketingprofile</profile>
+        <profile>custom: support profile</profile>
+        <profile>custom: marketing profile</profile>
+        <profile>custom: sales profile</profile>
+        <profile>readonly</profile>
+        <profile>solutionmanager</profile>
+        <profile>chatter moderator user</profile>
+        <profile>force.com - free user</profile>
+        <profile>partner app subscription user</profile>
+        <profile>force.com - app subscription user</profile>
+        <profile>identity user</profile>
+        <profile>work.com only user</profile>
+        <profile>cross org data proxy user</profile>
+        <profile>chatter free user</profile>
+        <profile>analytics cloud integration user</profile>
+        <profile>analytics cloud security user</profile>
+        <profile>standardaul</profile>
+        <profile>customer portal manager standard</profile>
+        <profile>partner comm user</profile>
+        <profile>highvolumeportal</profile>
+        <profile>silver partner user</profile>
+        <profile>customer community plus user</profile>
+        <profile>customer community user</profile>
+        <profile>customer portal manager custom</profile>
+        <profile>partner community login user</profile>
+        <profile>platformportal</profile>
+        <profile>partner community user</profile>
+        <profile>customer community login user</profile>
+        <profile>external identity user</profile>
+        <profile>authenticated website</profile>
+        <profile>customer community plus login user</profile>
+        <profile>high volume customer portal user</profile>
+        <profile>gold partner user</profile>
     </networkMemberGroups>
     <networkPageOverrides>
         <changePasswordPageOverrideSetting>Standard</changePasswordPageOverrideSetting>
@@ -113,7 +150,109 @@
             <title>Recommendation</title>
         </recommendationDefinitionDetails>
     </recommendationDefinition>
-    <selfRegistration>false</selfRegistration>
+    <reputationLevels>
+        <level>
+            <label>bronce</label>
+            <lowerThreshold>0.0</lowerThreshold>
+        </level>
+        <level>
+            <label>silver</label>
+            <lowerThreshold>51.0</lowerThreshold>
+        </level>
+        <level>
+            <label>gold</label>
+            <lowerThreshold>151.0</lowerThreshold>
+        </level>
+        <level>
+            <lowerThreshold>401.0</lowerThreshold>
+        </level>
+        <level>
+            <lowerThreshold>801.0</lowerThreshold>
+        </level>
+        <level>
+            <lowerThreshold>1501.0</lowerThreshold>
+        </level>
+        <level>
+            <lowerThreshold>2501.0</lowerThreshold>
+        </level>
+        <level>
+            <lowerThreshold>4001.0</lowerThreshold>
+        </level>
+        <level>
+            <lowerThreshold>6001.0</lowerThreshold>
+        </level>
+        <level>
+            <lowerThreshold>10001.0</lowerThreshold>
+        </level>
+    </reputationLevels>
+    <reputationPointsRules>
+        <pointsRule>
+            <eventType>FeedItemReceiveAnAnswer</eventType>
+            <points>5</points>
+        </pointsRule>
+        <pointsRule>
+            <eventType>FeedItemReceiveAMention</eventType>
+            <points>5</points>
+        </pointsRule>
+        <pointsRule>
+            <eventType>FeedItemMentionSomeone</eventType>
+            <points>1</points>
+        </pointsRule>
+        <pointsRule>
+            <eventType>FeedItemYourAnswerMarkedBest</eventType>
+            <points>20</points>
+        </pointsRule>
+        <pointsRule>
+            <eventType>FeedItemReceiveALike</eventType>
+            <points>5</points>
+        </pointsRule>
+        <pointsRule>
+            <eventType>FeedItemWriteAComment</eventType>
+            <points>1</points>
+        </pointsRule>
+        <pointsRule>
+            <eventType>FeedItemMarkAnswerAsBest</eventType>
+            <points>5</points>
+        </pointsRule>
+        <pointsRule>
+            <eventType>FeedItemSomeoneSharesYourPost</eventType>
+            <points>5</points>
+        </pointsRule>
+        <pointsRule>
+            <eventType>FeedItemReceiveAComment</eventType>
+            <points>5</points>
+        </pointsRule>
+        <pointsRule>
+            <eventType>FeedItemShareAPost</eventType>
+            <points>1</points>
+        </pointsRule>
+        <pointsRule>
+            <eventType>FeedItemWriteAPost</eventType>
+            <points>1</points>
+        </pointsRule>
+        <pointsRule>
+            <eventType>FeedItemPostQuestion</eventType>
+            <points>1</points>
+        </pointsRule>
+        <pointsRule>
+            <eventType>EndorseSomeoneForKnowledgeOnATopic</eventType>
+            <points>5</points>
+        </pointsRule>
+        <pointsRule>
+            <eventType>EndorsedForKnowledgeOnATopic</eventType>
+            <points>20</points>
+        </pointsRule>
+        <pointsRule>
+            <eventType>FeedItemAnswerAQuestion</eventType>
+            <points>5</points>
+        </pointsRule>
+        <pointsRule>
+            <eventType>FeedItemLikeSomething</eventType>
+            <points>1</points>
+        </pointsRule>
+    </reputationPointsRules>
+    <selfRegProfile>customer community user</selfRegProfile>
+    <selfRegistration>true</selfRegistration>
     <sendWelcomeEmail>true</sendWelcomeEmail>
     <site>Partner_Central</site>
     <status>Live</status>
