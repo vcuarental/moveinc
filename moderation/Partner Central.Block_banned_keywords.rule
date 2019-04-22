@@ -4,13 +4,8 @@
     <active>false</active>
     <description>Posts or comments with banned words aren&apos;t saved to the community feed</description>
     <entitiesAndFields>
-        <entityName>FeedComment</entityName>
-        <fieldName>RawCommentBody</fieldName>
-        <keywordList>Partner Central.Banned</keywordList>
-    </entitiesAndFields>
-    <entitiesAndFields>
         <entityName>FeedItem</entityName>
-        <fieldName>LinkUrl</fieldName>
+        <fieldName>Title</fieldName>
         <keywordList>Partner Central.Banned</keywordList>
     </entitiesAndFields>
     <entitiesAndFields>
@@ -20,7 +15,12 @@
     </entitiesAndFields>
     <entitiesAndFields>
         <entityName>FeedItem</entityName>
-        <fieldName>Title</fieldName>
+        <fieldName>LinkUrl</fieldName>
+        <keywordList>Partner Central.Banned</keywordList>
+    </entitiesAndFields>
+    <entitiesAndFields>
+        <entityName>FeedComment</entityName>
+        <fieldName>RawCommentBody</fieldName>
         <keywordList>Partner Central.Banned</keywordList>
     </entitiesAndFields>
     <entitiesAndFields>
@@ -30,5 +30,6 @@
     </entitiesAndFields>
     <masterLabel>Block posts or comments containing banned keywords</masterLabel>
     <type>Content</type>
+    <userCriteria>Partner Central.Members_without_contribution</userCriteria>
     <userMessage>You can&apos;t use %BLOCKED_KEYWORD% or other inappropriate words in this community. Review your content and try again.</userMessage>
 </ModerationRule>
