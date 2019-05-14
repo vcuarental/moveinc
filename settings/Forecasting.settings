@@ -258,6 +258,14 @@
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N1n00000SY6JJ</field>
+            <label>Data Quality Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1n00000SY6JK</field>
+            <label>Data Quality Score</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000NK054</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
@@ -361,6 +369,8 @@
             <field>00N1n00000RyCb2</field>
             <field>00N0Y00000RxSwz</field>
             <field>00N0Y00000NK053</field>
+            <field>00N1n00000SY6JJ</field>
+            <field>00N1n00000SY6JK</field>
             <field>00N0Y00000NK054</field>
             <field>00N1n00000RyCan</field>
             <field>00N0Y00000NK055</field>
@@ -561,6 +571,14 @@
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N1n00000SY6JJ</field>
+            <label>Data Quality Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1n00000SY6JK</field>
+            <label>Data Quality Score</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000NK054</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
@@ -664,6 +682,8 @@
             <field>00N1n00000RyCb2</field>
             <field>00N0Y00000RxSwz</field>
             <field>00N0Y00000NK053</field>
+            <field>00N1n00000SY6JJ</field>
+            <field>00N1n00000SY6JK</field>
             <field>00N0Y00000NK054</field>
             <field>00N1n00000RyCan</field>
             <field>00N0Y00000NK055</field>
@@ -868,6 +888,14 @@
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N1n00000SY6JJ</field>
+            <label>Data Quality Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1n00000SY6JK</field>
+            <label>Data Quality Score</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000NK054</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
@@ -972,6 +1000,8 @@
             <field>00N1n00000RyCb2</field>
             <field>00N0Y00000RxSwz</field>
             <field>00N0Y00000NK053</field>
+            <field>00N1n00000SY6JJ</field>
+            <field>00N1n00000SY6JK</field>
             <field>00N0Y00000NK054</field>
             <field>00N1n00000RyCan</field>
             <field>00N0Y00000NK055</field>
@@ -1172,6 +1202,14 @@
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N1n00000SY6JJ</field>
+            <label>Data Quality Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1n00000SY6JK</field>
+            <label>Data Quality Score</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000NK054</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
@@ -1275,6 +1313,8 @@
             <field>00N1n00000RyCb2</field>
             <field>00N0Y00000RxSwz</field>
             <field>00N0Y00000NK053</field>
+            <field>00N1n00000SY6JJ</field>
+            <field>00N1n00000SY6JK</field>
             <field>00N0Y00000NK054</field>
             <field>00N1n00000RyCan</field>
             <field>00N0Y00000NK055</field>
@@ -1479,6 +1519,14 @@
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N1n00000SY6JJ</field>
+            <label>Data Quality Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1n00000SY6JK</field>
+            <label>Data Quality Score</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000NK054</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
@@ -1583,6 +1631,8 @@
             <field>00N1n00000RyCb2</field>
             <field>00N0Y00000RxSwz</field>
             <field>00N0Y00000NK053</field>
+            <field>00N1n00000SY6JJ</field>
+            <field>00N1n00000SY6JK</field>
             <field>00N0Y00000NK054</field>
             <field>00N1n00000RyCan</field>
             <field>00N0Y00000NK055</field>
@@ -1783,6 +1833,14 @@
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N1n00000SY6JJ</field>
+            <label>Data Quality Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1n00000SY6JK</field>
+            <label>Data Quality Score</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000NK054</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
@@ -1886,6 +1944,8 @@
             <field>00N1n00000RyCb2</field>
             <field>00N0Y00000RxSwz</field>
             <field>00N0Y00000NK053</field>
+            <field>00N1n00000SY6JJ</field>
+            <field>00N1n00000SY6JK</field>
             <field>00N0Y00000NK054</field>
             <field>00N1n00000RyCan</field>
             <field>00N0Y00000NK055</field>
@@ -2086,6 +2146,14 @@
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N1n00000SY6JJ</field>
+            <label>Data Quality Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1n00000SY6JK</field>
+            <label>Data Quality Score</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000NK054</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
@@ -2189,6 +2257,8 @@
             <field>00N1n00000RyCb2</field>
             <field>00N0Y00000RxSwz</field>
             <field>00N0Y00000NK053</field>
+            <field>00N1n00000SY6JJ</field>
+            <field>00N1n00000SY6JK</field>
             <field>00N0Y00000NK054</field>
             <field>00N1n00000RyCan</field>
             <field>00N0Y00000NK055</field>
@@ -2389,6 +2459,14 @@
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N1n00000SY6JJ</field>
+            <label>Data Quality Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1n00000SY6JK</field>
+            <label>Data Quality Score</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000NK054</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
@@ -2492,6 +2570,8 @@
             <field>00N1n00000RyCb2</field>
             <field>00N0Y00000RxSwz</field>
             <field>00N0Y00000NK053</field>
+            <field>00N1n00000SY6JJ</field>
+            <field>00N1n00000SY6JK</field>
             <field>00N0Y00000NK054</field>
             <field>00N1n00000RyCan</field>
             <field>00N0Y00000NK055</field>
@@ -2696,6 +2776,14 @@
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N1n00000SY6JJ</field>
+            <label>Data Quality Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1n00000SY6JK</field>
+            <label>Data Quality Score</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000NK054</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
@@ -2800,6 +2888,8 @@
             <field>00N1n00000RyCb2</field>
             <field>00N0Y00000RxSwz</field>
             <field>00N0Y00000NK053</field>
+            <field>00N1n00000SY6JJ</field>
+            <field>00N1n00000SY6JK</field>
             <field>00N0Y00000NK054</field>
             <field>00N1n00000RyCan</field>
             <field>00N0Y00000NK055</field>
@@ -3000,6 +3090,14 @@
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N1n00000SY6JJ</field>
+            <label>Data Quality Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1n00000SY6JK</field>
+            <label>Data Quality Score</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000NK054</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
@@ -3103,6 +3201,8 @@
             <field>00N1n00000RyCb2</field>
             <field>00N0Y00000RxSwz</field>
             <field>00N0Y00000NK053</field>
+            <field>00N1n00000SY6JJ</field>
+            <field>00N1n00000SY6JK</field>
             <field>00N0Y00000NK054</field>
             <field>00N1n00000RyCan</field>
             <field>00N0Y00000NK055</field>
@@ -3303,6 +3403,14 @@
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N1n00000SY6JJ</field>
+            <label>Data Quality Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1n00000SY6JK</field>
+            <label>Data Quality Score</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000NK054</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
@@ -3406,6 +3514,8 @@
             <field>00N1n00000RyCb2</field>
             <field>00N0Y00000RxSwz</field>
             <field>00N0Y00000NK053</field>
+            <field>00N1n00000SY6JJ</field>
+            <field>00N1n00000SY6JK</field>
             <field>00N0Y00000NK054</field>
             <field>00N1n00000RyCan</field>
             <field>00N0Y00000NK055</field>
@@ -3606,6 +3716,14 @@
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N1n00000SY6JJ</field>
+            <label>Data Quality Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1n00000SY6JK</field>
+            <label>Data Quality Score</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000NK054</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
@@ -3709,6 +3827,8 @@
             <field>00N1n00000RyCb2</field>
             <field>00N0Y00000RxSwz</field>
             <field>00N0Y00000NK053</field>
+            <field>00N1n00000SY6JJ</field>
+            <field>00N1n00000SY6JK</field>
             <field>00N0Y00000NK054</field>
             <field>00N1n00000RyCan</field>
             <field>00N0Y00000NK055</field>
@@ -3917,6 +4037,14 @@
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N1n00000SY6JJ</field>
+            <label>Data Quality Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1n00000SY6JK</field>
+            <label>Data Quality Score</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000NK054</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
@@ -4022,6 +4150,8 @@
             <field>00N1n00000RyCb2</field>
             <field>00N0Y00000RxSwz</field>
             <field>00N0Y00000NK053</field>
+            <field>00N1n00000SY6JJ</field>
+            <field>00N1n00000SY6JK</field>
             <field>00N0Y00000NK054</field>
             <field>00N1n00000RyCan</field>
             <field>00N0Y00000NK055</field>
@@ -4231,6 +4361,14 @@
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N1n00000SY6JJ</field>
+            <label>Data Quality Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N1n00000SY6JK</field>
+            <label>Data Quality Score</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000NK054</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
@@ -4336,6 +4474,8 @@
             <field>00N1n00000RyCb2</field>
             <field>00N0Y00000RxSwz</field>
             <field>00N0Y00000NK053</field>
+            <field>00N1n00000SY6JJ</field>
+            <field>00N1n00000SY6JK</field>
             <field>00N0Y00000NK054</field>
             <field>00N1n00000RyCan</field>
             <field>00N0Y00000NK055</field>

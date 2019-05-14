@@ -673,6 +673,14 @@
         <name>CurrentGenerators__c</name>
     </fields>
     <fields>
+        <label><!-- Data Quality Description --></label>
+        <name>Data_Quality_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Quality Score --></label>
+        <name>Data_Quality_Score__c</name>
+    </fields>
+    <fields>
         <label><!-- Delivery/Installation Status --></label>
         <name>DeliveryInstallationStatus__c</name>
         <picklistValues>

@@ -14,6 +14,14 @@
         <relationshipLabel><!-- Active contacts --></relationshipLabel>
     </fields>
     <fields>
+        <label><!-- Data Quality Description --></label>
+        <name>Data_Quality_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Quality Score --></label>
+        <name>Data_Quality_Score__c</name>
+    </fields>
+    <fields>
         <label><!-- Inactive Lookup --></label>
         <name>Inactive_Lookup__c</name>
         <relationshipLabel><!-- Contacts (Inactive Lookup) --></relationshipLabel>
@@ -37,6 +45,10 @@
             <masterLabel>Tertiary</masterLabel>
             <translation><!-- Tertiary --></translation>
         </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Loan Amount --></label>
+        <name>Loan_Amount__c</name>
     </fields>
     <fields>
         <label><!-- Location --></label>
