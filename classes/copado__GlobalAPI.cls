@@ -9,6 +9,9 @@ global class GlobalAPI {
     global GlobalAPI() {
 
     }
+    global String createUserAPIKey() {
+        return null;
+    }
     global Boolean deleteCopadoLicense(Id userId) {
         return null;
     }
@@ -16,6 +19,9 @@ global class GlobalAPI {
         return null;
     }
     global List<copado.GlobalAPI.UserLicense> listCopadoLicenses() {
+        return null;
+    }
+    global copado.GlobalAPI.LicenseOperationResult upsertCopadoLicense(copado.GlobalAPI.UserLicense licenseDetails) {
         return null;
     }
     global String upsertCopadoLicense(Id userId, copado.GlobalAPI.UserLicense licenseDetails) {
@@ -88,6 +94,30 @@ global class CopadoLicenses {
 
     }
 }
+global class LicenseOperationResult {
+    global String errorString {
+        get;
+        set;
+    }
+    global Boolean isCreated {
+        get;
+        set;
+    }
+    global Boolean isSuccess {
+        get;
+        set;
+    }
+    global Boolean isUpdated {
+        get;
+        set;
+    }
+    global LicenseOperationResult(Boolean isSuccessParam, String errorStringParam) {
+
+    }
+    global LicenseOperationResult(Boolean isSuccessParam, Boolean isCreatedParam, Boolean isUpdatedParam, String errorStringParam) {
+
+    }
+}
 global class UserLicense {
     global Boolean isCADenabled {
         get;
@@ -112,6 +142,9 @@ global class UserLicense {
     global Id userId {
         get;
         set;
+    }
+    global UserLicense() {
+
     }
     global UserLicense(Id userId, Boolean isCADenabled, Boolean isCCHenabled, Boolean isCCMenabled, Boolean isCopadoEnabled, Boolean isCSTenabled) {
 

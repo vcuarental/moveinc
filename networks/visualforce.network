@@ -35,7 +35,24 @@
         </navigationMenuItem>
     </navigationLinkSet>
     <networkMemberGroups>
+        <permissionSet>copado__Copado_User</permissionSet>
         <profile>admin</profile>
+        <profile>partner comm user</profile>
+        <profile>silver partner user</profile>
+        <profile>gold partner user</profile>
+        <profile>partner community login user</profile>
+        <profile>partner community user</profile>
+        <profile>customer community user</profile>
+        <profile>high volume customer portal user</profile>
+        <profile>authenticated website</profile>
+        <profile>external identity user</profile>
+        <profile>customer community plus login user</profile>
+        <profile>customer portal manager standard</profile>
+        <profile>highvolumeportal</profile>
+        <profile>customer community plus user</profile>
+        <profile>customer portal manager custom</profile>
+        <profile>platformportal</profile>
+        <profile>customer community login user</profile>
     </networkMemberGroups>
     <networkPageOverrides>
         <changePasswordPageOverrideSetting>Standard</changePasswordPageOverrideSetting>
@@ -50,6 +67,10 @@
     <site>visualforce</site>
     <status>UnderConstruction</status>
     <tabs>
+        <customTab>copado__User_Story__c</customTab>
+        <customTab>copado__Promotion__c</customTab>
+        <customTab>copado__Deployment_Flow__c</customTab>
+        <customTab>copado__Org__c</customTab>
         <defaultTab>Chatter</defaultTab>
         <standardTab>Chatter</standardTab>
         <standardTab>Idea</standardTab>

@@ -54,14 +54,14 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>ReadWrite</externalSharingModel>
+    <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>copado__Deployment_Flow__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <externalId>false</externalId>
         <inlineHelpText>If working with Copado Change Management, the Project must be linked to a Deployment Flow.</inlineHelpText>
-        <label>Deployment Flow</label>
+        <label>Pipeline</label>
         <referenceTo>copado__Deployment_Flow__c</referenceTo>
         <relationshipLabel>Projects</relationshipLabel>
         <relationshipName>Projects</relationshipName>
@@ -216,6 +216,6 @@
         <searchResultsAdditionalFields>copado__Status__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>copado__Deployment_Flow__c</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>Private</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

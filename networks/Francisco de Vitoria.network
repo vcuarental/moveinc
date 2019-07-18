@@ -10,7 +10,7 @@
     <enableCustomVFErrorPageOverrides>false</enableCustomVFErrorPageOverrides>
     <enableDirectMessages>true</enableDirectMessages>
     <enableGuestChatter>false</enableGuestChatter>
-    <enableGuestFileAccess>false</enableGuestFileAccess>
+    <enableGuestFileAccess>true</enableGuestFileAccess>
     <enableInvitation>false</enableInvitation>
     <enableKnowledgeable>false</enableKnowledgeable>
     <enableMemberVisibility>true</enableMemberVisibility>
@@ -25,24 +25,13 @@
     <enableUpDownVote>true</enableUpDownVote>
     <forgotPasswordTemplate>unfiled$public/CommunityForgotPasswordEmailTemplate</forgotPasswordTemplate>
     <gatherCustomerSentimentData>false</gatherCustomerSentimentData>
-    <navigationLinkSet>
-        <navigationMenuItem>
-            <label>Knowledge Center</label>
-            <position>0</position>
-            <publiclyAvailable>false</publiclyAvailable>
-            <target>/toparticles</target>
-            <type>InternalLink</type>
-        </navigationMenuItem>
-        <navigationMenuItem>
-            <label>Support</label>
-            <position>1</position>
-            <publiclyAvailable>false</publiclyAvailable>
-            <target>/contactsupport</target>
-            <type>InternalLink</type>
-        </navigationMenuItem>
-    </navigationLinkSet>
     <networkMemberGroups>
         <profile>admin</profile>
+        <profile>partner comm user</profile>
+        <profile>partner community user</profile>
+        <profile>partner community login user</profile>
+        <profile>silver partner user</profile>
+        <profile>gold partner user</profile>
     </networkMemberGroups>
     <networkPageOverrides>
         <changePasswordPageOverrideSetting>Standard</changePasswordPageOverrideSetting>
@@ -57,7 +46,8 @@
     <site>Francisco_de_Vitoria</site>
     <status>UnderConstruction</status>
     <tabs>
-        <defaultTab>home</defaultTab>
+        <customTab>copado__Org__c</customTab>
+        <defaultTab>Chatter</defaultTab>
         <standardTab>Chatter</standardTab>
     </tabs>
     <welcomeTemplate>unfiled$public/CommunityWelcomeEmailTemplate</welcomeTemplate>

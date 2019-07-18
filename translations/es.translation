@@ -941,6 +941,10 @@
         <name>copado__ACTION_COLUMN_HEADER</name>
     </customLabels>
     <customLabels>
+        <label><!-- ACTIVATE --></label>
+        <name>copado__ACTIVATE</name>
+    </customLabels>
+    <customLabels>
         <label><!-- ACTIVATE USERS --></label>
         <name>copado__ACTIVATE_USERS</name>
     </customLabels>
@@ -1141,8 +1145,16 @@
         <name>copado__Active_Scratch_Orgs</name>
     </customLabels>
     <customLabels>
+        <label><!-- Add Build Parameter --></label>
+        <name>copado__Add_Build_Parameter</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Add Filter Logic --></label>
         <name>copado__Add_Filter_Logic</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add_Selections --></label>
+        <name>copado__Add_Selections</name>
     </customLabels>
     <customLabels>
         <label><!-- Add to Selection --></label>
@@ -1231,6 +1243,10 @@
     <customLabels>
         <label><!-- Available --></label>
         <name>copado__Available</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Available Jobs for --></label>
+        <name>copado__Available_Jobs_for</name>
     </customLabels>
     <customLabels>
         <label><!-- Available Selenium Minutes --></label>
@@ -1349,6 +1365,10 @@
         <name>copado__BUILD_JOB</name>
     </customLabels>
     <customLabels>
+        <label><!-- Build Parameters --></label>
+        <name>copado__BUILD_PARAMETERS</name>
+    </customLabels>
+    <customLabels>
         <label><!-- BULK SOQL ERROR --></label>
         <name>copado__BULK_SOQL_ERROR</name>
     </customLabels>
@@ -1375,6 +1395,10 @@
     <customLabels>
         <label><!-- Branch Name --></label>
         <name>copado__Branch_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- BranchesInUseInfo --></label>
+        <name>copado__BranchesInUseInfo</name>
     </customLabels>
     <customLabels>
         <label><!-- Break down into artifacts --></label>
@@ -1439,6 +1463,10 @@
     <customLabels>
         <label><!-- CBM LICENSE --></label>
         <name>copado__CBM_LICENSE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CCH_Criteria_Values_Clear_Warning_Message --></label>
+        <name>copado__CCH_Criteria_Values_Clear_Warning_Message</name>
     </customLabels>
     <customLabels>
         <label><!-- CCH LICENSES USED --></label>
@@ -1625,6 +1653,10 @@
         <name>copado__CONTACT_SALES</name>
     </customLabels>
     <customLabels>
+        <label><!-- Continue --></label>
+        <name>copado__CONTINUE</name>
+    </customLabels>
+    <customLabels>
         <label><!-- COPADO AGILE DELIVERY --></label>
         <name>copado__COPADO_AGILE_DELIVERY</name>
     </customLabels>
@@ -1707,6 +1739,10 @@
     <customLabels>
         <label><!-- COPADO USERS --></label>
         <name>copado__COPADO_USERS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- COPY_TO_CLIPBOARD --></label>
+        <name>copado__COPY_TO_CLIPBOARD</name>
     </customLabels>
     <customLabels>
         <label><!-- COULD NOT SCHEDULE JOB --></label>
@@ -1873,6 +1909,10 @@
         <name>copado__Chatter</name>
     </customLabels>
     <customLabels>
+        <label><!-- Check Org Status --></label>
+        <name>copado__Check_Org_Status</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Clear Filter Logic --></label>
         <name>copado__Clear_Filter_Logic</name>
     </customLabels>
@@ -1929,6 +1969,10 @@
         <name>copado__Compliance_Required_Criteria_Fields</name>
     </customLabels>
     <customLabels>
+        <label><!-- Connection Has Not Shared With You --></label>
+        <name>copado__Connection_Has_Not_Shared_With_You</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Connection Problem --></label>
         <name>copado__Connection_Problem</name>
     </customLabels>
@@ -1949,6 +1993,10 @@
         <name>copado__Copado_DX</name>
     </customLabels>
     <customLabels>
+        <label><!-- Copado License --></label>
+        <name>copado__Copado_License</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Could Not Push To Repo --></label>
         <name>copado__Could_Not_Push_To_Repo</name>
     </customLabels>
@@ -1967,6 +2015,10 @@
     <customLabels>
         <label><!-- CreateQuickTestSettings --></label>
         <name>copado__CreateQuickTestSettings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Create DX Branch --></label>
+        <name>copado__Create_DX_Branch</name>
     </customLabels>
     <customLabels>
         <label><!-- Create Kanban --></label>
@@ -1991,6 +2043,18 @@
     <customLabels>
         <label><!-- Create Test Scratch Org --></label>
         <name>copado__Create_Test_Scratch_Org</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Create User Story --></label>
+        <name>copado__Create_User_Story</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Credential Authenticated Successfully --></label>
+        <name>copado__Credential_Authenticated_Successfully</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Credential Not Authenticated Successfully --></label>
+        <name>copado__Credential_Not_Authenticated_Successfully</name>
     </customLabels>
     <customLabels>
         <label><!-- Criteria Selection --></label>
@@ -2261,6 +2325,10 @@
         <name>copado__DX_Branch_Hard_Limit_Message_Title</name>
     </customLabels>
     <customLabels>
+        <label><!-- DX Commit --></label>
+        <name>copado__DX_Commit</name>
+    </customLabels>
+    <customLabels>
         <label><!-- DX Edition is required --></label>
         <name>copado__DX_Edition_is_required</name>
     </customLabels>
@@ -2315,6 +2383,10 @@
     <customLabels>
         <label><!-- DX Project Branch Definition --></label>
         <name>copado__DX_Project_Branch_Definition</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DX Project Not Created --></label>
+        <name>copado__DX_Project_Not_Created</name>
     </customLabels>
     <customLabels>
         <label><!-- DX Promotion Branch Definition --></label>
@@ -2809,6 +2881,10 @@
         <name>copado__GIT_BACKUP_NOT_FOUND</name>
     </customLabels>
     <customLabels>
+        <label><!-- GIT_COMMIT_PAGE --></label>
+        <name>copado__GIT_COMMIT_PAGE</name>
+    </customLabels>
+    <customLabels>
         <label><!-- GIT DELETIONS --></label>
         <name>copado__GIT_DELETIONS</name>
     </customLabels>
@@ -2893,6 +2969,10 @@
         <name>copado__Git_Artifacts</name>
     </customLabels>
     <customLabels>
+        <label><!-- Git Operation Help Text --></label>
+        <name>copado__Git_Operation_Help_Text</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Git Repo is Not Set --></label>
         <name>copado__Git_Repo_is_Not_Set</name>
     </customLabels>
@@ -2911,6 +2991,10 @@
     <customLabels>
         <label><!-- Go to Commit Page --></label>
         <name>copado__Go_to_Commit_Page</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Goback2SeleniumGroup --></label>
+        <name>copado__Goback2SeleniumGroup</name>
     </customLabels>
     <customLabels>
         <label><!-- HEADERS --></label>
@@ -3003,6 +3087,10 @@
     <customLabels>
         <label><!-- Hide Password --></label>
         <name>copado__Hide_Password</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- IF_MODIFY_METADATA_ENABLED --></label>
+        <name>copado__IF_MODIFY_METADATA_ENABLED</name>
     </customLabels>
     <customLabels>
         <label><!-- IM DONE --></label>
@@ -3131,6 +3219,14 @@
     <customLabels>
         <label><!-- JQX SORTREMOVESTRING --></label>
         <name>copado__JQX_SORTREMOVESTRING</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Job Name --></label>
+        <name>copado__Job_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Job URL --></label>
+        <name>copado__Job_URL</name>
     </customLabels>
     <customLabels>
         <label><!-- KANBAN BOARD COLUMNS --></label>
@@ -3461,6 +3557,10 @@
         <name>copado__Mass_Back_Promote</name>
     </customLabels>
     <customLabels>
+        <label><!-- Merge Conflict Found --></label>
+        <name>copado__Merge_Conflict_Found</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Merge Conflict On Validation --></label>
         <name>copado__Merge_Conflict_On_Validation</name>
     </customLabels>
@@ -3491,6 +3591,10 @@
     <customLabels>
         <label><!-- Metadata size exceeded --></label>
         <name>copado__Metadata_size_exceeded</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MissingGroupRecord --></label>
+        <name>copado__MissingGroupRecord</name>
     </customLabels>
     <customLabels>
         <label><!-- Missing Parameter Pull Request --></label>
@@ -3547,6 +3651,10 @@
     <customLabels>
         <label><!-- NEXT --></label>
         <name>copado__NEXT</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NO --></label>
+        <name>copado__NO</name>
     </customLabels>
     <customLabels>
         <label><!-- NoAccessPromotion --></label>
@@ -3653,6 +3761,14 @@
         <name>copado__NO_USER_STORIES_TO_PROMOTE</name>
     </customLabels>
     <customLabels>
+        <label><!-- NO US TO SELECT --></label>
+        <name>copado__NO_US_TO_SELECT</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- N/A --></label>
+        <name>copado__N_A</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Namespace --></label>
         <name>copado__Namespace</name>
     </customLabels>
@@ -3693,6 +3809,10 @@
         <name>copado__No_Commit_Changes</name>
     </customLabels>
     <customLabels>
+        <label><!-- No Outdated User Story Metadata --></label>
+        <name>copado__No_Outdated_User_Story_Metadata</name>
+    </customLabels>
+    <customLabels>
         <label><!-- No User Story --></label>
         <name>copado__No_User_Story</name>
     </customLabels>
@@ -3709,6 +3829,14 @@
         <name>copado__NotPromotedtoAll</name>
     </customLabels>
     <customLabels>
+        <label><!-- Not Enter Negative Order --></label>
+        <name>copado__Not_Enter_Negative_Order</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Not Enter Same Order --></label>
+        <name>copado__Not_Enter_Same_Order</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Not Validated --></label>
         <name>copado__Not_Validated</name>
     </customLabels>
@@ -3723,6 +3851,10 @@
     <customLabels>
         <label><!-- OBJECT --></label>
         <name>copado__OBJECT</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OBJECT NAME --></label>
+        <name>copado__OBJECT_NAME</name>
     </customLabels>
     <customLabels>
         <label><!-- OK --></label>
@@ -3933,6 +4065,18 @@
         <name>copado__Original_Error_Message</name>
     </customLabels>
     <customLabels>
+        <label><!-- Outdated Component Help Text --></label>
+        <name>copado__Outdated_Component_Help_Text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Outdated Component In Promotion --></label>
+        <name>copado__Outdated_Component_In_Promotion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Outdated User Story Metadata --></label>
+        <name>copado__Outdated_User_Story_Metadata</name>
+    </customLabels>
+    <customLabels>
         <label><!-- PASSED --></label>
         <name>copado__PASSED</name>
     </customLabels>
@@ -4129,12 +4273,264 @@
         <name>copado__PermissionForTestSuite</name>
     </customLabels>
     <customLabels>
+        <label><!-- Pipeline Activate Pipeline Prompt --></label>
+        <name>copado__Pipeline_Activate_Pipeline_Prompt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline_Authenticate_Production --></label>
+        <name>copado__Pipeline_Authenticate_Production</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline Back-Promotable User Stories --></label>
+        <name>copado__Pipeline_Back_Promotable_User_Stories</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline Back to Pipeline --></label>
+        <name>copado__Pipeline_Back_to_Pipeline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline_Base_Urls_Explanation --></label>
+        <name>copado__Pipeline_Base_Urls_Explanation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline CCM License Assignment Explanation --></label>
+        <name>copado__Pipeline_CCM_License_Assignment_Explanation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline_Clear_All_Filters --></label>
+        <name>copado__Pipeline_Clear_All_Filters</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline Copado License Assignment Explanation --></label>
+        <name>copado__Pipeline_Copado_License_Assignment_Explanation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline Created Promotions --></label>
+        <name>copado__Pipeline_Created_Promotions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline_Creating_Branches --></label>
+        <name>copado__Pipeline_Creating_Branches</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline_Creating_Records --></label>
+        <name>copado__Pipeline_Creating_Records</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline Dependency Status --></label>
+        <name>copado__Pipeline_Dependency_Status</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline Dest Env enforces RunAllTestsInOrg --></label>
+        <name>copado__Pipeline_Dest_Env_enforces_RunAllTestsInOrg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline Diagram --></label>
+        <name>copado__Pipeline_Diagram</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline_Edit_Stage_Names --></label>
+        <name>copado__Pipeline_Edit_Stage_Names</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline_Environment_500_US_Limit_Message --></label>
+        <name>copado__Pipeline_Environment_500_US_Limit_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline_Environment_Setup --></label>
+        <name>copado__Pipeline_Environment_Setup</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline First Give Pipeline Name --></label>
+        <name>copado__Pipeline_First_Give_Pipeline_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline_Git_Repo_Auth_Type --></label>
+        <name>copado__Pipeline_Git_Repo_Auth_Type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline_Is_User_For_Production --></label>
+        <name>copado__Pipeline_Is_User_For_Production</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline_Main_Org_Production --></label>
+        <name>copado__Pipeline_Main_Org_Production</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline Manager --></label>
+        <name>copado__Pipeline_Manager</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline_Need_To_Select_Answer --></label>
+        <name>copado__Pipeline_Need_To_Select_Answer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline_New_Environment_Connection --></label>
+        <name>copado__Pipeline_New_Environment_Connection</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline_New_Environment_Connection_Explanation --></label>
+        <name>copado__Pipeline_New_Environment_Connection_Explanation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline_No_License_Provisioned --></label>
+        <name>copado__Pipeline_No_License_Provisioned</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline Not Active Error --></label>
+        <name>copado__Pipeline_Not_Active_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline One promotion per release --></label>
+        <name>copado__Pipeline_One_promotion_per_release</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline Pending Approvals --></label>
+        <name>copado__Pipeline_Pending_Approvals</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline Pipeline Needed To Continue --></label>
+        <name>copado__Pipeline_Pipeline_Needed_To_Continue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline Pipeline Needed To Continue Fix --></label>
+        <name>copado__Pipeline_Pipeline_Needed_To_Continue_Fix</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline_Please_Login_For_Environment --></label>
+        <name>copado__Pipeline_Please_Login_For_Environment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline Promotable User Stories --></label>
+        <name>copado__Pipeline_Promotable_User_Stories</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline Promote --></label>
+        <name>copado__Pipeline_Promote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline Promote &amp; Deploy --></label>
+        <name>copado__Pipeline_Promote_and_Deploy</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline Release Manager Question --></label>
+        <name>copado__Pipeline_Release_Manager_Question</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline Repo Connected Successfully --></label>
+        <name>copado__Pipeline_Repo_Connected_Successfully</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline Review Errors --></label>
+        <name>copado__Pipeline_Review_Errors</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline_SSH_Key_Explanation --></label>
+        <name>copado__Pipeline_SSH_Key_Explanation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline_SSH_Key_Explanation Header --></label>
+        <name>copado__Pipeline_SSH_Key_Explanation_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline_SSH_Key_Header --></label>
+        <name>copado__Pipeline_SSH_Key_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline Select A Template --></label>
+        <name>copado__Pipeline_Select_A_Template</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline Select A Template Description --></label>
+        <name>copado__Pipeline_Select_A_Template_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline Select Deployment Testlevel --></label>
+        <name>copado__Pipeline_Select_Deployment_Testlevel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline_Select_Git_Repo_Provider --></label>
+        <name>copado__Pipeline_Select_Git_Repo_Provider</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline Settings --></label>
+        <name>copado__Pipeline_Settings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline_Settings_Page_Explanation --></label>
+        <name>copado__Pipeline_Settings_Page_Explanation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline_Taking_Production_Snapshot --></label>
+        <name>copado__Pipeline_Taking_Production_Snapshot</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline Test Level --></label>
+        <name>copado__Pipeline_Test_Level</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline There is a setup in progress --></label>
+        <name>copado__Pipeline_There_is_a_setup_in_progress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline_Unassign_License --></label>
+        <name>copado__Pipeline_Unassign_License</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline Unexpected Template Type --></label>
+        <name>copado__Pipeline_Unexpected_Template_Type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline Unexpected Template Type Explanation --></label>
+        <name>copado__Pipeline_Unexpected_Template_Type_Explanation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline_Username_Doesnt_Match_Production --></label>
+        <name>copado__Pipeline_Username_Doesnt_Match_Production</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline Validate Selections --></label>
+        <name>copado__Pipeline_Validate_Selections</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline Wizard Finish --></label>
+        <name>copado__Pipeline_Wizard_Finish</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline Wizard Finish Enjoy --></label>
+        <name>copado__Pipeline_Wizard_Finish_Enjoy</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline Wizard Finish Message --></label>
+        <name>copado__Pipeline_Wizard_Finish_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline Wizard Start Message --></label>
+        <name>copado__Pipeline_Wizard_Start_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline_Working_On_Environments_Setting --></label>
+        <name>copado__Pipeline_Working_On_Environments_Setting</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline Would like to continue to setup --></label>
+        <name>copado__Pipeline_Would_like_to_continue_to_setup</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline allow only one setup in progress --></label>
+        <name>copado__Pipeline_allow_only_one_setup_in_progress</name>
+    </customLabels>
+    <customLabels>
         <label><!-- PleaseMakeSure --></label>
         <name>copado__PleaseMakeSure</name>
     </customLabels>
     <customLabels>
         <label><!-- Please Enter --></label>
         <name>copado__Please_Enter</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Please Go Back To Record --></label>
+        <name>copado__Please_Go_Back_To_Record</name>
     </customLabels>
     <customLabels>
         <label><!-- Please Select And Prepare And Extension First. --></label>
@@ -4409,6 +4805,14 @@
         <name>copado__RefreshCS</name>
     </customLabels>
     <customLabels>
+        <label><!-- Refresh Metadata --></label>
+        <name>copado__Refresh_Metadata</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Refresh Metadata Job Fail --></label>
+        <name>copado__Refresh_Metadata_Job_Fail</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Related User Story Metadata --></label>
         <name>copado__RelatedUserStoryMetadata</name>
     </customLabels>
@@ -4527,6 +4931,10 @@
     <customLabels>
         <label><!-- SECONDS --></label>
         <name>copado__SECONDS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SELECT --></label>
+        <name>copado__SELECT</name>
     </customLabels>
     <customLabels>
         <label><!-- SELECTED --></label>
@@ -4665,6 +5073,10 @@
         <name>copado__SHARE</name>
     </customLabels>
     <customLabels>
+        <label><!-- SKIP --></label>
+        <name>copado__SKIP</name>
+    </customLabels>
+    <customLabels>
         <label><!-- SNAPSHOT CREATE --></label>
         <name>copado__SNAPSHOT_CREATE</name>
     </customLabels>
@@ -4715,6 +5127,10 @@
     <customLabels>
         <label><!-- SSH URI validation --></label>
         <name>copado__SSH_URI_validation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- START --></label>
+        <name>copado__START</name>
     </customLabels>
     <customLabels>
         <label><!-- STARTING_COMMIT --></label>
@@ -4973,12 +5389,28 @@
         <name>copado__Second_Generation_Packages</name>
     </customLabels>
     <customLabels>
+        <label><!-- SelectEnvironment --></label>
+        <name>copado__SelectEnvironment</name>
+    </customLabels>
+    <customLabels>
         <label><!-- SelectMetadataFrom --></label>
         <name>copado__SelectMetadataFrom</name>
     </customLabels>
     <customLabels>
         <label><!-- SelectOne --></label>
         <name>copado__SelectOne</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SelectOrgCredential --></label>
+        <name>copado__SelectOrgCredential</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SelectSeleniumSetting --></label>
+        <name>copado__SelectSeleniumSetting</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SelectSeleniumTestSuite --></label>
+        <name>copado__SelectSeleniumTestSuite</name>
     </customLabels>
     <customLabels>
         <label><!-- Select All Environments --></label>
@@ -4999,6 +5431,10 @@
     <customLabels>
         <label><!-- Select CI Job --></label>
         <name>copado__Select_CI_Job</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select DX Changes --></label>
+        <name>copado__Select_DX_Changes</name>
     </customLabels>
     <customLabels>
         <label><!-- Select DX Operation --></label>
@@ -5033,12 +5469,16 @@
         <name>copado__Select_Field_User_Image</name>
     </customLabels>
     <customLabels>
-        <label><!-- Select Fields to Remove From Column --></label>
+        <label><!-- Column Filter --></label>
         <name>copado__Select_Fields_to_Remove_From_Column</name>
     </customLabels>
     <customLabels>
         <label><!-- Select Job --></label>
         <name>copado__Select_Job</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select Metadata --></label>
+        <name>copado__Select_Metadata</name>
     </customLabels>
     <customLabels>
         <label><!-- Select Object Kanban --></label>
@@ -5079,6 +5519,10 @@
     <customLabels>
         <label><!-- Select Scratch Org --></label>
         <name>copado__Select_Scratch_Org</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select Snapshot --></label>
+        <name>copado__Select_Snapshot</name>
     </customLabels>
     <customLabels>
         <label><!-- Select a Branch --></label>
@@ -5153,6 +5597,10 @@
         <name>copado__Show_Continuous_Integrations</name>
     </customLabels>
     <customLabels>
+        <label><!-- Show Hide --></label>
+        <name>copado__Show_Hide</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Show Hook URL --></label>
         <name>copado__Show_Hook_URL</name>
     </customLabels>
@@ -5185,6 +5633,10 @@
         <name>copado__SnapshotDiff_Status</name>
     </customLabels>
     <customLabels>
+        <label><!-- Snapshot Commit --></label>
+        <name>copado__Snapshot_Commit</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Some Not Validated --></label>
         <name>copado__Some_Not_Validated</name>
     </customLabels>
@@ -5211,6 +5663,10 @@
     <customLabels>
         <label><!-- Source Org New Window --></label>
         <name>copado__Source_Org_New_Window</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Source and Destination Environment Null --></label>
+        <name>copado__Source_and_Destination_Environment_Null</name>
     </customLabels>
     <customLabels>
         <label><!-- Specify Filter Criteria --></label>
@@ -5513,6 +5969,10 @@
         <name>copado__UNEXPECTED_DX_DF_ERROR</name>
     </customLabels>
     <customLabels>
+        <label><!-- UNEXPECTED_ERROR --></label>
+        <name>copado__UNEXPECTED_ERROR</name>
+    </customLabels>
+    <customLabels>
         <label><!-- UNSAVED CHANGES --></label>
         <name>copado__UNSAVED_CHANGES</name>
     </customLabels>
@@ -5797,12 +6257,24 @@
         <name>copado__Unsupported_Metadata_Source</name>
     </customLabels>
     <customLabels>
+        <label><!-- Unsupported Service --></label>
+        <name>copado__Unsupported_Service</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Unsupported Value In Filter Criteria --></label>
         <name>copado__Unsupported_Value_In_Filter_Criteria</name>
     </customLabels>
     <customLabels>
+        <label><!-- Update Permission --></label>
+        <name>copado__Update_Permission</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Update Template --></label>
         <name>copado__Update_Template</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Updated User Story Metadata --></label>
+        <name>copado__Updated_User_Story_Metadata</name>
     </customLabels>
     <customLabels>
         <label><!-- Upload Convert forceignore --></label>
@@ -5819,6 +6291,10 @@
     <customLabels>
         <label><!-- User Stories --></label>
         <name>copado__User_Stories</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- User Story Commit --></label>
+        <name>copado__User_Story_Commit</name>
     </customLabels>
     <customLabels>
         <label><!-- User Story Do Not Have Org Credential --></label>
@@ -5901,6 +6377,14 @@
         <name>copado__VarVal</name>
     </customLabels>
     <customLabels>
+        <label><!-- Variables --></label>
+        <name>copado__Variables</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Variant Is Not Defined --></label>
+        <name>copado__Variant_Is_Not_Defined</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Version Description --></label>
         <name>copado__Version_Description</name>
     </customLabels>
@@ -5919,6 +6403,10 @@
     <customLabels>
         <label><!-- View Name --></label>
         <name>copado__View_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Vlocity Dependency Retrieve Job Fail --></label>
+        <name>copado__Vlocity_Dependency_Retrieve_Job_Fail</name>
     </customLabels>
     <customLabels>
         <label><!-- WARNING --></label>
@@ -5947,6 +6435,10 @@
     <customLabels>
         <label><!-- WRONG CREDENTIALS --></label>
         <name>copado__WRONG_CREDENTIALS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- WRONG CREDENTIALS ACTION --></label>
+        <name>copado__WRONG_CREDENTIALS_ACTION</name>
     </customLabels>
     <customLabels>
         <label><!-- Warning2CreateSeleniumSetting --></label>
@@ -5999,6 +6491,10 @@
     <customLabels>
         <label><!-- YAML APPLY --></label>
         <name>copado__YAML_APPLY</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- YES --></label>
+        <name>copado__YES</name>
     </customLabels>
     <customLabels>
         <label><!-- YOUR USER DOES NOT HAVE API KEY --></label>

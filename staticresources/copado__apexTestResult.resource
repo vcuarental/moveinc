@@ -467,7 +467,7 @@ var apexTestResult = {
      * @param {[type]} classRes [description]
      */
     addCoverageData: function(classRes, booly){
-
+        console.log('booly : ',booly);
         var me = apexTestResult;
 
         if(classRes && (classRes.numLocations||classRes.numLocations===0)){
@@ -475,10 +475,12 @@ var apexTestResult = {
             // *ONLY* when it's null/undefined/whatever, we should go to mode 1.
             me.coverageMode = 2;
             if(booly &&  copadoApp.userStoryId){
+                console.log('classRes.numLocations : ',classRes.numLocations);
                 me.totalLines += classRes.numLocations;
                 me.linesNotCovered += classRes.numLocationsNotCovered;
             }
             if(!copadoApp.userStoryId){
+                console.log('classRes.numLocations : ',classRes.numLocations);
                 me.totalLines += classRes.numLocations;
                 me.linesNotCovered += classRes.numLocationsNotCovered;
             }
@@ -778,8 +780,11 @@ apexTestResult.init =  function(){
         $copado('#summaryUserStory').show();
     }
     else{
-        if(!isNaN(apexTestResult.userStoryCoverage)){
+        if(!isNaN(apexTestResult.orgCoverage)){
             $copado('.jstxt_Coverage').text(Math.floor(apexTestResult.orgCoverage)+'%');
+            $copado('#summaryOrg').show();
+        } else {
+            $copado('.jstxt_Coverage').text('0%');
             $copado('#summaryOrg').show();
         }
     }

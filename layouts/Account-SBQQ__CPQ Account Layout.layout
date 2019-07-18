@@ -42,6 +42,10 @@
                 <behavior>Edit</behavior>
                 <field>Rapel__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>oPPORTUNITY_REVENUE__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

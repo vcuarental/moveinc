@@ -101,6 +101,11 @@
         <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
+        <application>standard__SalesforceCMS</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>standard__Service</application>
         <default>false</default>
         <visible>false</visible>
@@ -570,6 +575,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.Zona__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.oPPORTUNITY_REVENUE__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1214,6 +1224,36 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>ConsumptionRate.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ConsumptionRate.UpperBound</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ConsumptionSchedule.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ConsumptionSchedule.IsActive</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ConsumptionSchedule.MatchingAttribute</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ConsumptionSchedule.UnitOfMeasure</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Contact.AccountId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1830,6 +1870,111 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Idea.Status</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.BirthDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.CanStorePiiElsewhere</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.ChildrenCount</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.ConsumerCreditScore</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.ConsumerCreditScoreProviderName</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.ConvictionsCount</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.DeathDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.HasOptedOutGeoTracking</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.HasOptedOutProcessing</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.HasOptedOutProfiling</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.HasOptedOutSolicit</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.HasOptedOutTracking</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.IndividualsAge</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.InfluencerRating</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.IsHomeOwner</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.MasterRecordId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.MilitaryService</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.Occupation</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.SendIndividualData</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.ShouldForget</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.Website</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3206,6 +3351,11 @@
         <editable>true</editable>
         <field>ProductTransfer.Status</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Project__c.Priority__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -5684,6 +5834,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>SBQQ__Quote__c.Discount_description__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>SBQQ__Quote__c.SBQQ__Account__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -7548,6 +7703,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>ServiceTerritory.TypicalInTerritoryTravelTime</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>ServiceTerritoryMember.Address</field>
         <readable>true</readable>
@@ -7560,6 +7720,21 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>ServiceTerritoryMember.OperatingHoursId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Shift.Label</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Shift.ServiceResourceId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Shift.ServiceTerritoryId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -8199,6 +8374,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>WorkTypeGroup.IsActive</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>copado__Apex_Test_Result__c.copado__Details__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -8435,6 +8615,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>copado__AuxiliaryObject__c.copado__Snapshot_Difference__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>copado__AuxiliaryObject__c.copado__User_Story__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -9314,6 +9499,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>copado__Environment__c.copado__Promotion_Default_Credential__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>copado__Environment__c.copado__Run_all_tests__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -9324,7 +9514,17 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>copado__Environment__c.copado__Validation_Promotion_Default_Credential__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>copado__Environmental_Variable__c.copado__Value__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>copado__Epic__c.copado__Cancelled_Reason__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -9335,6 +9535,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>copado__Epic__c.copado__Epic_Title__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>copado__Epic__c.copado__Release__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -9495,6 +9700,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>copado__Git_Commit__c.copado__Commit_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>copado__Git_Commit__c.copado__Commit_Datetime__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -10509,7 +10719,17 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>copado__Static_Code_Analysis_Result__c.copado__Closed__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>copado__Static_Code_Analysis_Result__c.copado__Code_Smells__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>copado__Static_Code_Analysis_Result__c.copado__Confirmed__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -10520,6 +10740,16 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>copado__Static_Code_Analysis_Result__c.copado__Details__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>copado__Static_Code_Analysis_Result__c.copado__False_Positive__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>copado__Static_Code_Analysis_Result__c.copado__Fixed__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -10549,12 +10779,37 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>copado__Static_Code_Analysis_Result__c.copado__Open__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>copado__Static_Code_Analysis_Result__c.copado__Org_Credential__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>copado__Static_Code_Analysis_Result__c.copado__Removed__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>copado__Static_Code_Analysis_Result__c.copado__Reopened__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>copado__Static_Code_Analysis_Result__c.copado__Resolved__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>copado__Static_Code_Analysis_Result__c.copado__Score_v11__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>copado__Static_Code_Analysis_Result__c.copado__Unresolved__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -10565,6 +10820,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>copado__Static_Code_Analysis_Result__c.copado__Vulnerabilities__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>copado__Static_Code_Analysis_Result__c.copado__Wont_fix__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -10624,6 +10884,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>copado__Static_Code_Analysis_Violation__c.copado__Resolution__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>copado__Static_Code_Analysis_Violation__c.copado__Rule__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -10635,6 +10900,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>copado__Static_Code_Analysis_Violation__c.copado__Severity__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>copado__Static_Code_Analysis_Violation__c.copado__Status__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -10739,6 +11009,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>copado__Team_Dependency__c.copado__Child_User_Story_Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>copado__Team_Dependency__c.copado__Deliverable__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -10765,6 +11040,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>copado__Team_Dependency__c.copado__Notes__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>copado__Team_Dependency__c.copado__Parent_User_Story_Status__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -11094,6 +11374,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>copado__User_Story_Metadata__c.copado__Last_Commit_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>copado__User_Story_Metadata__c.copado__Metadata_API_Name__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -11224,6 +11509,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>copado__User_Story__c.copado__Environment_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>copado__User_Story__c.copado__Environment__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -11260,6 +11550,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>copado__User_Story__c.copado__Last_Compliance_Scan_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>copado__User_Story__c.copado__Last_Promotion_Date__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -11469,6 +11764,10 @@
         <recordType>Account.Juridico</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Account-Account Layout</layout>
+        <recordType>Account.Master</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>AccountBrand-Account BrandLayout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -11521,6 +11820,12 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>CommunityMemberLayout-Community Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ConsumptionRate-Consumption Rate Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ConsumptionSchedule-Consumption Schedule Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Contact-Contact Layout</layout>
@@ -11578,6 +11883,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Idea-Idea Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Individual-Individual Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>JobTracker-Job Tracker Layout - Winter %2716</layout>
@@ -11680,6 +11988,9 @@
         <layout>ProductConsumed-Product Consumed Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>ProductConsumptionSchedule-Product Consumption Schedule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ProductItem-Product Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -11696,6 +12007,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>ProductTransfer-Product Transfer Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project__c-Project Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Property__c-Property Layout</layout>
@@ -11772,6 +12086,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>ServiceTerritoryMember-Service Territory Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Shift-Shift Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Shipment-Shipment Layout</layout>
@@ -12029,13 +12346,18 @@
         <enabled>false</enabled>
     </pageAccesses>
     <recordTypeVisibilities>
-        <default>true</default>
+        <default>false</default>
         <recordType>Account.Account_Rec_Type</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Account.Juridico</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Account.Master</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
@@ -12240,6 +12562,22 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-AuthorizationForm</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-AuthorizationFormConsent</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-AuthorizationFormDataUse</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-AuthorizationFormText</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-Campaign</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -12260,8 +12598,16 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-ConsumptionSchedule</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-Contact</tab>
         <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-ContactPointTypeConsent</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-ContactRequest</tab>
@@ -12274,6 +12620,14 @@
     <tabVisibilities>
         <tab>standard-DandBCompany</tab>
         <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-DataUseLegalBasis</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-DataUsePurpose</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-DuplicateRecordSet</tab>
@@ -12289,6 +12643,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Image</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Individual</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -12416,6 +12774,10 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-Shift</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-Shipment</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -12436,11 +12798,19 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-WorkCapacityLimit</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-WorkOrder</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-WorkType</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-WorkTypeGroup</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <userLicense>Chatter Free</userLicense>

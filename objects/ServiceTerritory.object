@@ -74,6 +74,10 @@
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
+    <fields>
+        <fullName>TypicalInTerritoryTravelTime</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
     <listViews>
         <fullName>All_ServiceTerritories</fullName>
         <filterScope>Everything</filterScope>

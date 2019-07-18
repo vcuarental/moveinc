@@ -603,9 +603,14 @@ var coGridHelper = {
                 vk: data[len].vk,
             };
 
-            if (typeof data[len].r != 'undefined') {
+            if (typeof data[len].r !== 'undefined') {
                 o.r = data[len].r;
+            } else {
+            //MY: When retrieve only is undefined set it as false by default. Backend depends on the parameter so it
+            //should never be undefined in the attachment that we create for backend to use
+                o.r = false;
             }
+
             if (typeof data[len].ns != 'undefined') {
                 o.ns = data[len].ns;
             } else {
@@ -671,7 +676,6 @@ var coGridHelper = {
             }
             return false;
         }
-
         var valid = !additionalValidation ? true : additionalValidation(me._selectedNames);
         valid && me.remoteSaveMeta(id, sel || me._selectedNames, type, callback);
 

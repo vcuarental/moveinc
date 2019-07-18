@@ -6,5 +6,5 @@
     <mayForecastManagerShare>false</mayForecastManagerShare>
     <name>Installation &amp; Repair Services</name>
     <opportunityAccessLevel>Edit</opportunityAccessLevel>
-    <parentRole>SVPCustomerServiceSupport</parentRole>
+    <parentRole>Sales_Strategy_Manager</parentRole>
 </Role>

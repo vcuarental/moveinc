@@ -4,10 +4,8 @@
     <contrastPrimaryColor>#333333</contrastPrimaryColor>
     <embeddedServiceConfig>beatiz_victor</embeddedServiceConfig>
     <font>Salesforce Sans</font>
-    <height>498</height>
     <masterLabel>EmbeddedServiceBranding_Parent04I0Y000000XZdK_163ee4d6eec</masterLabel>
     <navBarColor>#222222</navBarColor>
     <primaryColor>#222222</primaryColor>
     <secondaryColor>#005290</secondaryColor>
-    <width>320</width>
 </EmbeddedServiceBranding>

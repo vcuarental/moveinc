@@ -159,7 +159,7 @@ var statusManager = statusManager || {
         var me = statusManager;
 
         if (msg && msg.isSuccess == false) {
-            var errorMsgs = (msg.messages && msg.messages.length > 0) ? msg.messages.join('\n') : 'Unexpected Error. Please contact support@copa.do';
+            var errorMsgs = (msg.messages && msg.messages.length > 0) ? msg.messages.join('\n') : (msg.type == 'MetadataRetriever' ?  copadoLabels.IF_MODIFY_METADATA_ENABLED : copadoLabels.UNEXPECTED_ERROR);
             console.log('me.showAlert==> ',me.showAlert);
             //to Prevent multiple error pop-ups when an error occurs in a callout
             if(me.showAlert == true){
